@@ -1,0 +1,1024 @@
+/* Color-only adaptations of the existing workspace styles. Layout and interactions stay in the original stylesheets. Scoped to the mounted messenger. */
+body.gc-chat-theme .messenger :is(button,a,input,textarea,select):focus-visible {outline:2px solid #d8ede9
+}
+body.gc-chat-theme .ms-skip {background:#fafffe;color:#385750!important
+}
+body.gc-chat-theme .ms-brand-divider {background:#0d6a5735
+}
+body.gc-chat-theme .ms-brand-product {color:#60736f
+}
+body.gc-chat-theme .ms-topbar-center {color:#60736f
+}
+body.gc-chat-theme .ms-topbar-line {background:#0d6a5724
+}
+body.gc-chat-theme .ms-connection {background:#0d6a5705;border:1px solid #0d6a5720;color:#0d231e
+}
+body.gc-chat-theme .ms-connection>span,body.gc-chat-theme .ms-footer-dot {background:#fafffe;box-shadow:0 0 8px #0d6a5730
+}
+body.gc-chat-theme .ms-connection.is-preview>span {background:#fafffe
+}
+body.gc-chat-theme .ms-app-frame {border:1px solid #0d6a5721;background:#ffffff;box-shadow:0 30px 100px #0d6a5799,0 1px 0 #0d6a5708 inset
+}
+body.gc-chat-theme .ms-rail {background:#ffffff
+}
+body.gc-chat-theme .ms-icon {color:#60736f
+}
+body.gc-chat-theme .ms-icon:hover {background:#0d6a5709;color:#0d231e
+}
+body.gc-chat-theme .ms-icon.is-active {background:linear-gradient(140deg,#ffffff,#ffffff);color:#0d231e;border-color:#0d6a571c;box-shadow:inset 0 1px 0 #0d6a5709
+}
+body.gc-chat-theme .ms-rail-dot {border:1px solid #d8ede9;background:#fafffe
+}
+body.gc-chat-theme .ms-self-avatar {border:1px solid #0d6a5735;background:linear-gradient(145deg,#f5fefc,#ffffff);color:#0d231e;box-shadow:0 0 0 4px #0d6a5704
+}
+body.gc-chat-theme .ms-inbox {background:linear-gradient(130deg,#ffffff,#ffffff 65%)
+}
+body.gc-chat-theme .ms-kicker {color:#60736f
+}
+body.gc-chat-theme .ms-inbox-heading h1>span {color:#60736f
+}
+body.gc-chat-theme .ms-inbox-heading .ms-new {border:1px solid #0d6a5721;background:linear-gradient(140deg,#0d6a5713,#0d6a5703);color:#0d231e
+}
+body.gc-chat-theme .ms-search {background:#ffffff;border:1px solid #0d6a5713;color:#60736f
+}
+body.gc-chat-theme .ms-search input {color:#0d231e
+}
+body.gc-chat-theme .ms-search input::placeholder {color:#60736f
+}
+body.gc-chat-theme .ms-search kbd {color:#60736f;border:1px solid #0d6a571a
+}
+body.gc-chat-theme .ms-filters>button {color:#60736f
+}
+body.gc-chat-theme .ms-filters>button:hover {color:#0d231e;background:#0d6a5706
+}
+body.gc-chat-theme .ms-filters>button.selected {background:#fafffe;color:#385750;border-color:#d8ede9;box-shadow:inset 0 1px 0 #d8ede9
+}
+body.gc-chat-theme .ms-filters>button>span {background:#0d6a5718
+}
+body.gc-chat-theme .ms-filters>button.selected>span {background:#eafbf715
+}
+body.gc-chat-theme .ms-list-label>span {color:#60736f
+}
+body.gc-chat-theme .ms-text {color:#60736f
+}
+body.gc-chat-theme .ms-text:hover {color:#0d231e
+}
+body.gc-chat-theme .ms-list-label .ms-text {color:#60736f
+}
+body.gc-chat-theme .ms-room-list {scrollbar-color:#0d6a5718 transparent
+}
+body.gc-chat-theme .ms-room:hover {background:#0d6a5705
+}
+body.gc-chat-theme .ms-room.selected {background:linear-gradient(110deg,#0d6a570e,#0d6a5704);border-color:#0d6a5713
+}
+body.gc-chat-theme .ms-room.selected:before {background:#fafffe
+}
+body.gc-chat-theme .ms-avatar {background:radial-gradient(ellipse at 30% 0%,#f5fefc,#ffffff 55%,#ffffff);border:1px solid #0d6a5728;box-shadow:inset 0 1px 0 #0d6a5709;color:#0d231e
+}
+body.gc-chat-theme .ms-avatar-group {background:linear-gradient(135deg,#ffffff,#ffffff);color:#0d231e
+}
+body.gc-chat-theme .ms-room-name time {color:#60736f
+}
+body.gc-chat-theme .ms-room-preview>span {color:#60736f
+}
+body.gc-chat-theme .ms-room-preview>svg {color:#60736f
+}
+body.gc-chat-theme .ms-unread {color:#385750;background:#fafffe
+}
+body.gc-chat-theme .ms-mini-mark {border:1px solid #0d6a571a;background:#0d6a5705;color:#60736f
+}
+body.gc-chat-theme .ms-inbox-footer strong {color:#0d231e
+}
+body.gc-chat-theme .ms-inbox-footer em {color:#0d231e
+}
+body.gc-chat-theme .ms-inbox-footer div>span {color:#60736f
+}
+body.gc-chat-theme .ms-list-empty {color:#60736f
+}
+body.gc-chat-theme .ms-list-empty strong {color:#0d231e
+}
+body.gc-chat-theme .ms-conversation {background:#ffffff
+}
+body.gc-chat-theme .ms-conversation-header {background:#ffffff
+}
+body.gc-chat-theme .ms-person-heading small {color:#60736f
+}
+body.gc-chat-theme .ms-action-divider {background:#0d6a5718
+}
+body.gc-chat-theme .ms-conversation-actions .ms-icon {color:#0d231e
+}
+body.gc-chat-theme .ms-popup {background:#ffffff;border:1px solid #0d6a5726;box-shadow:0 15px 40px #0d6a5799
+}
+body.gc-chat-theme .ms-popup button {color:#0d231e
+}
+body.gc-chat-theme .ms-popup button:hover {background:#0d6a570c;color:#0d231e
+}
+body.gc-chat-theme .ms-preview-strip {color:#60736f;border-bottom:1px solid #0d6a5709;background:#ffffff
+}
+body.gc-chat-theme .ms-preview-label {border:1px solid #0d6a5728;color:#0d231e
+}
+body.gc-chat-theme .ms-preview-strip>button {color:#0d231e
+}
+body.gc-chat-theme .ms-encryption-strip {color:#60736f;background:#ffffff
+}
+body.gc-chat-theme .ms-error-strip {color:#0f6554
+}
+body.gc-chat-theme .ms-thread-search {background:#ffffff
+}
+body.gc-chat-theme .ms-thread-search input {color:#0d231e
+}
+body.gc-chat-theme .ms-timeline {scrollbar-color:#0d6a571c transparent
+}
+body.gc-chat-theme .ms-conversation-beginning {color:#60736f
+}
+body.gc-chat-theme .ms-beginning-line {background:#0d6a5716
+}
+body.gc-chat-theme .ms-message-body {background:linear-gradient(140deg,#ffffff,#ffffff);border:1px solid #0d6a5712;color:#0d231e;box-shadow:0 3px 9px #0d6a5722
+}
+body.gc-chat-theme .ms-message.own .ms-message-body {background:linear-gradient(145deg,#fafffe,#fafffe);border-color:#0d6a5725;color:#385750;box-shadow:inset 0 1px 0 #0d6a5780,0 3px 9px #0d6a5722
+}
+body.gc-chat-theme .ms-message-meta {color:#60736f
+}
+body.gc-chat-theme .ms-message.own .ms-message-meta {color:#60736f
+}
+body.gc-chat-theme .ms-message-tools button {color:#60736f
+}
+body.gc-chat-theme .ms-message-tools button:hover {color:#0d231e;background:#0d6a570d
+}
+body.gc-chat-theme .ms-message-tools .ms-popup button {color:#0d231e
+}
+body.gc-chat-theme .ms-message-sender {color:#0d231e
+}
+body.gc-chat-theme .ms-message blockquote {border-left:2px solid #d8ede9;background:#eafbf710
+}
+body.gc-chat-theme .ms-message-body:has(.ms-pay-card)>.ms-message-meta {color:#60736f
+}
+body.gc-chat-theme .ms-pay-card {background:radial-gradient(ellipse at 110% -20%,#fafffe,#fafffe 48%,#fafffe);color:#385750;box-shadow:0 10px 25px #0d6a5744,inset 0 1px 0 #0d6a57c9;border:1px solid #0d6a5755
+}
+body.gc-chat-theme .ms-pay-card:after {border:1px solid #0d6a570d;box-shadow:0 0 0 16px #0d6a5709,0 0 0 32px #0d6a5703
+}
+body.gc-chat-theme .ms-pay-card-top>svg:last-child {color:#60736f
+}
+body.gc-chat-theme .ms-pay-symbol {background:#ffffff;color:#0d231e
+}
+body.gc-chat-theme .ms-pay-amount>span {color:#60736f
+}
+body.gc-chat-theme .ms-pay-card>p {color:#60736f
+}
+body.gc-chat-theme .ms-pay-state {color:#60736f
+}
+body.gc-chat-theme .ms-pay-state>span {background:#f5fefc
+}
+body.gc-chat-theme .ms-pay-card>button {border:1px solid #0d6a5714;background:linear-gradient(#ffffff,#ffffff);color:#0d231e;box-shadow:inset 0 1px 0 #0d6a571a
+}
+body.gc-chat-theme .ms-pay-card>button:hover {background:linear-gradient(#ffffff,#ffffff)
+}
+body.gc-chat-theme .ms-pay-card-note {color:#60736f
+}
+body.gc-chat-theme .ms-attachment {background:#0d6a5708
+}
+body.gc-chat-theme .ms-attachment>span {border:1px solid #0d6a5766
+}
+body.gc-chat-theme .ms-load-earlier {background:#0d6a5706;border:1px solid #0d6a5718;color:#60736f
+}
+body.gc-chat-theme .ms-new-messages {border:1px solid #0d6a572b;background:#ffffff;color:#0d231e;box-shadow:0 6px 20px #0d6a5788
+}
+body.gc-chat-theme .ms-composer-area {background:linear-gradient(transparent,#ffffff 25%)
+}
+body.gc-chat-theme .ms-composer {background:linear-gradient(125deg,#ffffff,#ffffff);border:1px solid #0d6a5726;box-shadow:0 5px 15px #0d6a5722,inset 0 1px 0 #0d6a5703
+}
+body.gc-chat-theme .ms-composer .ms-icon {color:#60736f
+}
+body.gc-chat-theme .ms-composer textarea {color:#0d231e
+}
+body.gc-chat-theme .ms-composer textarea::placeholder {color:#60736f
+}
+body.gc-chat-theme .ms-pay-trigger {border:1px solid #0d6a5717;background:linear-gradient(#0d6a570e,#0d6a5703);color:#0d231e
+}
+body.gc-chat-theme .ms-pay-trigger:hover {background:#0d6a5712;border-color:#0d6a5736
+}
+body.gc-chat-theme .ms-send-button {background:linear-gradient(#fafffe,#fafffe);border:1px solid #0d6a57b3;color:#385750
+}
+body.gc-chat-theme .ms-send-button:hover {background:#fafffe;box-shadow:0 0 15px #0d6a5720
+}
+body.gc-chat-theme .ms-composer-caption {color:#60736f
+}
+body.gc-chat-theme .ms-composer-caption>span:last-child {color:#60736f
+}
+body.gc-chat-theme .ms-emoji-picker {border:1px solid #0d6a5726;background:#ffffff;box-shadow:0 10px 30px #0d6a5799
+}
+body.gc-chat-theme .ms-emoji-picker button:hover {background:#0d6a5712
+}
+body.gc-chat-theme .ms-reply-preview {border-left:2px solid #d8ede9;background:#ffffff;color:#60736f
+}
+body.gc-chat-theme .ms-reply-preview strong {color:#0d231e
+}
+body.gc-chat-theme .ms-typing {color:#60736f
+}
+body.gc-chat-theme .ms-recording {color:#0d231e
+}
+body.gc-chat-theme .ms-recording>span {background:#fafffe
+}
+body.gc-chat-theme .ms-recording>button {color:#0d231e
+}
+body.gc-chat-theme .ms-record-active {color:#0d231e!important
+}
+body.gc-chat-theme .ms-thread-empty {color:#60736f
+}
+body.gc-chat-theme .ms-thread-empty>svg {color:#0d231e
+}
+body.gc-chat-theme .ms-thread-empty h2 {color:#0d231e
+}
+body.gc-chat-theme .ms-thread-empty h2 em {color:#60736f
+}
+body.gc-chat-theme .ms-empty-home {background:radial-gradient(ellipse at 50% 40%,#0d6a5707,transparent 65%)
+}
+body.gc-chat-theme .ms-invitation {background:#ffffff
+}
+body.gc-chat-theme .ms-invitation p {color:#0d231e
+}
+body.gc-chat-theme .ms-details {background:#ffffff
+}
+body.gc-chat-theme .ms-details-heading>span {color:#60736f
+}
+body.gc-chat-theme .ms-details>p {color:#60736f
+}
+body.gc-chat-theme .ms-details-quick button {color:#60736f
+}
+body.gc-chat-theme .ms-details-quick button:hover {color:#0d231e
+}
+body.gc-chat-theme .ms-detail-section h3 {color:#60736f
+}
+body.gc-chat-theme .ms-detail-section>p {color:#60736f
+}
+body.gc-chat-theme .ms-member-initial {border:1px solid #0d6a5722;background:#0d6a5706
+}
+body.gc-chat-theme .ms-member strong {color:#0d231e
+}
+body.gc-chat-theme .ms-member div>span {color:#60736f
+}
+body.gc-chat-theme .ms-shared-payment {color:#0d231e
+}
+body.gc-chat-theme .ms-detail-security>svg {color:#0d231e
+}
+body.gc-chat-theme .ms-detail-security strong {color:#0d231e
+}
+body.gc-chat-theme .ms-detail-security p {color:#60736f
+}
+body.gc-chat-theme .ms-app-footer {color:#60736f
+}
+body.gc-chat-theme .ms-app-footer>span:nth-child(2) {color:#60736f
+}
+body.gc-chat-theme .ms-toast {background:#fafffe;color:#385750;border:1px solid #d8ede9;box-shadow:0 12px 45px #0d6a5799
+}
+body.gc-chat-theme .ms-toast button {color:#385750
+}
+body.gc-chat-theme .ms-modal {color:#0d231e;background:#ffffff;border:1px solid #0d6a5730;box-shadow:0 25px 110px #0d6a57cc
+}
+body.gc-chat-theme .ms-modal::backdrop {background:#eafbf7bb
+}
+body.gc-chat-theme .ms-modal-close {color:#60736f
+}
+body.gc-chat-theme .ms-modal .ms-kicker {color:#60736f
+}
+body.gc-chat-theme .ms-modal-copy {color:#60736f
+}
+body.gc-chat-theme .ms-modal :is(button,input,select):focus-visible {outline:2px solid #d8ede9
+}
+body.gc-chat-theme .ms-form label {color:#0d231e
+}
+body.gc-chat-theme .ms-form label>span {color:#60736f
+}
+body.gc-chat-theme .ms-form input,body.gc-chat-theme .ms-form select {background:#ffffff;border:1px solid #0d6a5729;color:#0d231e
+}
+body.gc-chat-theme .ms-form input::placeholder {color:#60736f
+}
+body.gc-chat-theme .ms-input-icon>svg {color:#60736f
+}
+body.gc-chat-theme .ms-primary {color:#385750;background:linear-gradient(#fafffe,#fafffe 50%,#fafffe);border:1px solid #0d6a5788;box-shadow:inset 0 1px 0 #d8ede9
+}
+body.gc-chat-theme .ms-primary:hover {background:linear-gradient(#fafffe,#fafffe);box-shadow:0 0 20px #0d6a5716
+}
+body.gc-chat-theme .ms-secondary {background:linear-gradient(145deg,#0d6a570b,#0d6a5703);color:#0d231e;border:1px solid #0d6a5730
+}
+body.gc-chat-theme .ms-secondary:hover {background:#0d6a5712;border-color:#0d6a5765
+}
+body.gc-chat-theme .ms-fine {color:#60736f
+}
+body.gc-chat-theme .ms-modal-note {border-top:1px solid #0d6a5714;color:#60736f
+}
+body.gc-chat-theme .ms-server-found {border-top:1px solid #0d6a5715;border-bottom:1px solid #0d6a5715
+}
+body.gc-chat-theme .ms-server-found span {color:#60736f
+}
+body.gc-chat-theme .ms-alert {background:#ffffff;border:1px solid #d8ede9;color:#0d231e
+}
+body.gc-chat-theme .ms-segments {background:#ffffff;border:1px solid #0d6a5718
+}
+body.gc-chat-theme .ms-segments>button {color:#60736f
+}
+body.gc-chat-theme .ms-segments>button.selected {background:#ffffff;color:#0d231e;border-color:#0d6a5715
+}
+body.gc-chat-theme .ms-wallet-connect.workspace {border-top:1px solid #0d6a5715;border-bottom:1px solid #0d6a5715
+}
+body.gc-chat-theme .ms-amount-field>span {color:#60736f
+}
+body.gc-chat-theme .ms-summary-row {border-top:1px solid #0d6a5712;color:#60736f
+}
+body.gc-chat-theme .ms-summary-row strong {color:#0d231e
+}
+body.gc-chat-theme .ms-summary-row small {color:#60736f
+}
+body.gc-chat-theme .ms-review-amount>span {color:#60736f
+}
+body.gc-chat-theme .ms-review-status {color:#0d231e
+}
+body.gc-chat-theme .ms-details-list {border-top:1px solid #0d6a571c
+}
+body.gc-chat-theme .ms-details-list dt {color:#60736f
+}
+body.gc-chat-theme .ms-details-list dd {color:#0d231e
+}
+body.gc-chat-theme .ms-request {border:1px solid #0d6a571c;background:#0d6a5703
+}
+body.gc-chat-theme .ms-request>code {color:#0d231e
+}
+body.gc-chat-theme .ms-small-tag {border:1px solid #0d6a5726;background:#0d6a5706;color:#0d231e
+}
+body.gc-chat-theme .ms-check {color:#0d231e
+}
+body.gc-chat-theme .ms-check input {accent-color:#0d231e
+}
+body.gc-chat-theme .ms-review-footer {border-top:1px solid #0d6a5716
+}
+body.gc-chat-theme .ms-busy {color:#0d231e
+}
+body.gc-chat-theme .ms-settings-page {scrollbar-color:#0d6a5720 transparent;background:radial-gradient(ellipse at 100% 0%,#0d6a5705,transparent 50%),#ffffff
+}
+body.gc-chat-theme .ms-settings-page h1 em,body.gc-chat-theme .ms-feature-page h1 em {color:#60736f
+}
+body.gc-chat-theme .ms-page-description {color:#60736f
+}
+body.gc-chat-theme .ms-settings-card {background:linear-gradient(145deg,#0d6a5705,#0d6a5701);border:1px solid #0d6a571c
+}
+body.gc-chat-theme .ms-settings-card>svg {color:#0d231e
+}
+body.gc-chat-theme .ms-settings-card>p {color:#60736f
+}
+body.gc-chat-theme .ms-setting-value {color:#0d231e
+}
+body.gc-chat-theme .ms-settings-note {color:#60736f
+}
+body.gc-chat-theme .ms-toggle-row strong {color:#0d231e
+}
+body.gc-chat-theme .ms-toggle-row small {color:#60736f
+}
+body.gc-chat-theme .ms-toggle-row>input {background:#ffffff;border:1px solid #0d6a5725
+}
+body.gc-chat-theme .ms-toggle-row>input:after {background:#f5fefc
+}
+body.gc-chat-theme .ms-toggle-row>input:checked {background:#fafffe
+}
+body.gc-chat-theme .ms-toggle-row>input:checked:after {background:#ffffff
+}
+body.gc-chat-theme .ms-feature-page {background:radial-gradient(ellipse at 50% 40%,#0d6a5706,transparent 65%),#ffffff
+}
+body.gc-chat-theme .ms-feature-icon {border:1px solid #0d6a5726;background:linear-gradient(140deg,#0d6a5712,#0d6a5703);color:#0d231e
+}
+body.gc-chat-theme .ms-feature-page>p:not(.ms-kicker) {color:#60736f
+}
+body.gc-chat-theme .ms-wide-page.workspace {background:#ffffff
+}
+@media (max-width:1250px) {
+body.gc-chat-theme .ms-details {box-shadow:-20px 0 60px #0d6a5766
+}
+}
+@media (max-width:680px), (max-width:1024px) and (max-height:500px) and (orientation:landscape) {
+body.gc-chat-theme .ms-topbar {border-bottom:1px solid #0d6a5712
+}
+}
+@media (max-width:680px), (max-width:1024px) and (max-height:500px) and (orientation:landscape) {
+body.gc-chat-theme .ms-rail {background:#ffffff;border-top:1px solid #0d6a571c
+}
+}
+@media (max-width:680px), (max-width:1024px) and (max-height:500px) and (orientation:landscape) {
+body.gc-chat-theme .ms-inbox {background:#ffffff
+}
+}
+@media (max-width:680px), (max-width:1024px) and (max-height:500px) and (orientation:landscape) {
+body.gc-chat-theme .ms-composer-area {background:#ffffff;border-top:1px solid #0d6a570a
+}
+}
+body.gc-chat-theme .ms-conversation>.ms-fluid-backdrop {background:radial-gradient(ellipse at 80% 25%,#eafbf766,transparent 60%),#ffffff
+}
+body.gc-chat-theme .ms-conversation-header {background:#eafbf7f2
+}
+body.gc-chat-theme .ms-composer-area {background:linear-gradient(transparent,#eafbf7e8 26%)
+}
+body.gc-chat-theme .messenger .ms-conversation-actions>.ms-fluid-toggle {background:#0d6a5706;color:#0d231e;border-color:#0d6a570d
+}
+body.gc-chat-theme .messenger .ms-conversation-actions>.ms-fluid-toggle:hover {color:#0d231e;background:#0d6a5712
+}
+body.gc-chat-theme .ms-thread-search input {border:1px solid #0d6a5715;background:#ffffff
+}
+body.gc-chat-theme .ms-composer {border-color:#0d6a5724;background:linear-gradient(135deg,#eafbf7e6,#eafbf7e6);box-shadow:inset 0 1px 0 #0d6a5708,0 6px 24px #0d6a5733
+}
+body.gc-chat-theme .ms-composer:focus-within {border-color:#0d6a5755;box-shadow:inset 0 1px 0 #0d6a5709,0 0 0 3px #0d6a5704,0 8px 26px #0d6a5733
+}
+body.gc-chat-theme .ms-message-body:hover {box-shadow:0 6px 22px #0d6a5733;border-color:#0d6a5726
+}
+body.gc-chat-theme .ms-workspace-status {color:#60736f
+}
+body.gc-chat-theme .ms-tools {background:#ffffff;border-left:1px solid #0d6a5720
+}
+body.gc-chat-theme .ms-tools-tabs {border-bottom:1px solid #0d6a5712
+}
+body.gc-chat-theme .ms-tools-tabs a {color:#0d231e
+}
+body.gc-chat-theme .ms-tools-tabs a[aria-current] {background:#fafffe;color:#385750
+}
+body.gc-chat-theme .ms-tools-network {color:#60736f;border-bottom:1px solid #0d6a570c
+}
+body.gc-chat-theme .ms-tools-pending {color:#0f6554;background:#148c7412
+}
+body.gc-chat-theme .ms-tools-body.workspace {scrollbar-color:#d8ede9 transparent
+}
+body.gc-chat-theme .gp-trade-embedded-status p {color:#60736f
+}
+@media (max-width:1200px) {
+body.gc-chat-theme .ms-unified .ms-tools {box-shadow:-14px 0 45px #0d6a5788
+}
+}
+body.gc-chat-theme .ms-unified dialog.ms-tools-popup {box-shadow:0 24px 90px #0d6a5788
+}
+body.gc-chat-theme .ms-unified dialog.ms-tools-popup::backdrop {background:#eafbf799
+}
+body.gc-chat-theme .setup-copy { color: #60736f
+}
+body.gc-chat-theme .setup-address { color: #0d231e
+}
+body.gc-chat-theme .setup-import { border-top: 1px solid #d8ede9; color: #0d231e
+}
+body.gc-chat-theme .setup-import input { background: #ffffff; border: 1px solid #d8ede9; color: #0d231e
+}
+body.gc-chat-theme .workspace {
+  background: #ffffff; color: #0d231e
+}
+body.gc-chat-theme .workspace > .gp-motion-control { background: #eafbf7cc
+}
+body.gc-chat-theme .workspace :is(a, button, input, select):focus-visible { outline: 2px solid #d8ede9
+}
+body.gc-chat-theme .workspace .skip-link { background: #fafffe; color: #385750
+}
+body.gc-chat-theme .workspace-header { border-bottom: 1px solid #0d6a571c
+}
+body.gc-chat-theme .workspace-header .gp-logo { color: #0d231e
+}
+body.gc-chat-theme .workspace-nav .gp-nav-pill { border-color: #d8ede9; background: linear-gradient(105deg, #ffffff, #ffffff 48%, #ffffff)
+}
+body.gc-chat-theme .workspace-nav .gp-nav-pill:hover { border-color: #d8ede9; background: linear-gradient(105deg, #ffffff, #ffffff 48%, #ffffff)
+}
+body.gc-chat-theme .workspace-nav .gp-nav-pill.active { background: linear-gradient(#fafffe, #fafffe 48%, #fafffe); color: #385750; border-color: #d8ede9; box-shadow: inset 0 1px 0 #d8ede9
+}
+body.gc-chat-theme .workspace .network-bar { color: #60736f
+}
+body.gc-chat-theme .workspace .network-bar .mono { color: #60736f; border-color: #d8ede9
+}
+body.gc-chat-theme .workspace .network-bar svg { color: #0d231e
+}
+body.gc-chat-theme .workspace .wallet-error { color: #0d231e; background: #ffffff; border-color: #d8ede9
+}
+body.gc-chat-theme .workspace .back-link { color: #60736f
+}
+body.gc-chat-theme .workspace .back-link:hover { color: #0d231e
+}
+body.gc-chat-theme .workspace .section-kicker { color: #60736f
+}
+body.gc-chat-theme .workspace :is(.page-heading h1, .dashboard-title h1) { color: #0d231e
+}
+body.gc-chat-theme .workspace h1 em { color: #60736f
+}
+body.gc-chat-theme .workspace :is(.page-heading p, .dashboard-title p) { color: #60736f
+}
+body.gc-chat-theme .workspace .muted { color: #60736f
+}
+body.gc-chat-theme .workspace .button::after { background: linear-gradient(115deg, transparent 20%, #0d6a5735 48%, transparent 76%)
+}
+body.gc-chat-theme .workspace .button.primary { color: #385750; background: linear-gradient(#fafffe, #fafffe 48%, #fafffe); border: 1px solid #d8ede9; box-shadow: inset 0 1px 0 #0d6a57ee
+}
+body.gc-chat-theme .workspace .button.primary:hover:not(:disabled) { background: linear-gradient(#fafffe, #fafffe 42%, #fafffe); border-color: #d8ede9; box-shadow: inset 0 1px 0 #d8ede9, 0 0 22px #0d6a5730
+}
+body.gc-chat-theme .workspace .button.secondary { color: #0d231e; background: linear-gradient(135deg, #0d6a5712, #eafbf777 50%, #0d6a5712); border-color: #d8ede9; box-shadow: inset 0 1px 0 #0d6a5718
+}
+body.gc-chat-theme .workspace .button.secondary:hover:not(:disabled) { background: linear-gradient(135deg, #0d6a5722, #eafbf7bb 50%, #0d6a5722); border-color: #d8ede9
+}
+body.gc-chat-theme .workspace .text-button { color: #0d231e
+}
+body.gc-chat-theme .workspace .text-button:hover { color: #0d231e
+}
+body.gc-chat-theme .workspace .icon-button { color: #60736f; background: linear-gradient(135deg, #ffffff, #ffffff); border-color: #d8ede9
+}
+body.gc-chat-theme .workspace .icon-button:hover { color: #0d231e; border-color: #d8ede9
+}
+body.gc-chat-theme .workspace .panel { border: 1px solid #0d6a5729; background: linear-gradient(135deg, #eafbf7eb, #eafbf7f5 65%); box-shadow: inset 0 1px 0 #0d6a5708, 0 16px 50px #0d6a5733
+}
+body.gc-chat-theme .workspace .panel-title { border-color: #0d6a5720
+}
+body.gc-chat-theme .workspace .panel-title p { color: #60736f
+}
+body.gc-chat-theme .workspace :is(.step-icon, .empty-icon, .recipient-icon) { color: #0d231e; background: linear-gradient(135deg, #ffffff, #ffffff); border-color: #0d6a5730; box-shadow: inset 0 1px 0 #0d6a570c
+}
+body.gc-chat-theme .workspace .eth-icon { background: linear-gradient(135deg, #ffffff, #ffffff); color: #0d231e; border-color: #0d6a5730
+}
+body.gc-chat-theme .workspace :is(.pill, .requests-section h3 > span) { background: #ffffff; color: #0d231e; border-color: #d8ede9
+}
+body.gc-chat-theme .workspace form label { color: #0d231e
+}
+body.gc-chat-theme .workspace form label > span { color: #60736f
+}
+body.gc-chat-theme .workspace .asset-select { border-color: #0d6a5729; background: linear-gradient(115deg, #eafbf788, #ffffff)
+}
+body.gc-chat-theme .workspace .asset-select small { color: #60736f
+}
+body.gc-chat-theme .workspace .amount-input { border-color: #0d6a5736; background: #eafbf7c9
+}
+body.gc-chat-theme .workspace .amount-input:focus-within { border-color: #d8ede9; box-shadow: 0 0 0 3px #0d6a570a
+}
+body.gc-chat-theme .workspace .amount-input input { color: #0d231e
+}
+body.gc-chat-theme .workspace .amount-input input::placeholder { color: #60736f
+}
+body.gc-chat-theme .workspace .amount-input > span { color: #0d231e
+}
+body.gc-chat-theme .workspace select { color: #0d231e; background: #ffffff; border-color: #0d6a5730
+}
+body.gc-chat-theme .workspace :is(.form-hint, .form-footnote) { color: #60736f
+}
+body.gc-chat-theme .workspace .form-summary { border-color: #0d6a5720; color: #60736f
+}
+body.gc-chat-theme .workspace .form-summary strong { color: #0d231e
+}
+body.gc-chat-theme .workspace .form-summary small { color: #60736f
+}
+body.gc-chat-theme .workspace .aside-icon { color: #0d231e
+}
+body.gc-chat-theme .workspace .create-aside h2 span { color: #60736f
+}
+body.gc-chat-theme .workspace .create-aside > p { color: #60736f
+}
+body.gc-chat-theme .workspace .vertical-steps li > span { color: #0d231e; background: linear-gradient(#ffffff, #ffffff); border-color: #d8ede9
+}
+body.gc-chat-theme .workspace .vertical-steps strong { color: #0d231e
+}
+body.gc-chat-theme .workspace .vertical-steps p { color: #60736f
+}
+body.gc-chat-theme .workspace .aside-note { background: linear-gradient(130deg, #0d6a570b, #eafbf7bb); border-color: #0d6a5729; color: #0d231e
+}
+body.gc-chat-theme .workspace .aside-note p { color: #0d231e
+}
+body.gc-chat-theme .workspace .stat { background: linear-gradient(135deg, #eafbf7d9, #eafbf7f2 80%); border: 1px solid #0d6a5729; box-shadow: inset 0 1px 0 #0d6a570a
+}
+body.gc-chat-theme .workspace .stat > span { color: #0d231e
+}
+body.gc-chat-theme .workspace .stat > span svg { color: #0d231e
+}
+body.gc-chat-theme .workspace .stat strong { color: #0d231e
+}
+body.gc-chat-theme .workspace .stat strong small { color: #60736f
+}
+body.gc-chat-theme .workspace .stat p { color: #60736f
+}
+body.gc-chat-theme .workspace .tabs button { color: #60736f
+}
+body.gc-chat-theme .workspace .tabs button:hover { color: #0d231e; background: #0d6a5709
+}
+body.gc-chat-theme .workspace .tabs button.selected { background: linear-gradient(110deg, #ffffff, #ffffff); border-color: #d8ede9; color: #0d231e; box-shadow: inset 0 1px 0 #0d6a570b
+}
+body.gc-chat-theme .workspace .tabs button > span { background: #ffffff; color: #0d231e
+}
+body.gc-chat-theme .workspace .empty p { color: #60736f
+}
+body.gc-chat-theme .workspace .payment-identity a { color: #0d231e
+}
+body.gc-chat-theme .workspace .payment-identity a:hover { color: #0d231e
+}
+body.gc-chat-theme .workspace .payment-identity small { color: #60736f
+}
+body.gc-chat-theme .workspace .payment-item-amount { color: #0d231e
+}
+body.gc-chat-theme .workspace .payment-item-amount > span { color: #60736f
+}
+body.gc-chat-theme .workspace .payment-meta { color: #60736f; border-color: #0d6a5720
+}
+body.gc-chat-theme .workspace .requests-section { border-color: #0d6a5720
+}
+body.gc-chat-theme .workspace .requests-section h3 { color: #0d231e
+}
+body.gc-chat-theme .workspace .request { border-color: #0d6a5726; background: #eafbf7b3
+}
+body.gc-chat-theme .workspace .full-address { color: #0d231e
+}
+body.gc-chat-theme .workspace .request-state { color: #0d231e; border-color: #d8ede9; background: #ffffff
+}
+body.gc-chat-theme .workspace .request-state.authorized { color: #0d231e; border-color: #d8ede9; background: #ffffff
+}
+body.gc-chat-theme .workspace .request-state.rejected { color: #0d231e; border-color: #d8ede9; background: #ffffff
+}
+body.gc-chat-theme .workspace .verify-label { color: #0d231e
+}
+body.gc-chat-theme .workspace .verify-label input { accent-color: #0d231e
+}
+body.gc-chat-theme .workspace .request-actions .primary > span { color: #385750; border-color: #0d6a5755
+}
+body.gc-chat-theme .workspace .dashboard-note { color: #60736f
+}
+body.gc-chat-theme .workspace .claim-card { background: linear-gradient(145deg, #eafbf7e8, #eafbf7f5)
+}
+body.gc-chat-theme .workspace .claim-amount { color: #0d231e
+}
+body.gc-chat-theme .workspace .claim-amount > span { color: #60736f
+}
+body.gc-chat-theme .workspace .eth-icon.large { color: #0d231e; background: linear-gradient(140deg, #ffffff, #ffffff); border-color: #d8ede9
+}
+body.gc-chat-theme .workspace .payment-details { border-color: #0d6a5724
+}
+body.gc-chat-theme .workspace .payment-details dt { color: #60736f
+}
+body.gc-chat-theme .workspace .payment-details dd { color: #0d231e
+}
+body.gc-chat-theme .workspace .waiting-state { border-color: #d8ede9; background: #eafbf7b3
+}
+body.gc-chat-theme .workspace .waiting-state strong { color: #0d231e
+}
+body.gc-chat-theme .workspace .waiting-state p { color: #60736f
+}
+body.gc-chat-theme .workspace .pulse-dot { background: #fafffe; box-shadow: 0 0 0 5px #0d6a5712
+}
+body.gc-chat-theme .workspace .claim-aside h2 > span { color: #60736f
+}
+body.gc-chat-theme .workspace .claim-aside > p { color: #60736f
+}
+body.gc-chat-theme .workspace .connected-recipient { border-color: #0d6a5724
+}
+body.gc-chat-theme .workspace .connected-recipient :is(small, code) { color: #0d231e
+}
+body.gc-chat-theme .workspace .claim-card-bottom > span { color: #60736f
+}
+body.gc-chat-theme .workspace .share-url { background: #ffffff; border-color: #d8ede9; color: #0d231e
+}
+body.gc-chat-theme .workspace .created-state > label { color: #60736f
+}
+body.gc-chat-theme .workspace .feedback.neutral { color: #0d231e; background: #eafbf7bb; border-color: #d8ede9
+}
+body.gc-chat-theme .workspace .feedback.success { color: #0d231e; background: #eafbf7d9; border-color: #d8ede9
+}
+body.gc-chat-theme .workspace .feedback.error { color: #0f6554; background: #eafbf7e6; border-color: #d8ede9
+}
+body.gc-chat-theme .workspace :is(.status.active, .status.claimed) { color: #0d231e; background: #ffffff; border-color: #d8ede9
+}
+body.gc-chat-theme .workspace .status.expired { color: #0f6554; background: #ffffff; border-color: #d8ede9
+}
+body.gc-chat-theme .workspace .status.refunded { color: #0d231e; background: #ffffff; border-color: #d8ede9
+}
+body.gc-chat-theme .workspace .tx-receipt { background: #ffffff; color: #0d231e; border-color: #d8ede9
+}
+body.gc-chat-theme .workspace .large-check { background: #ffffff; color: #0d231e; border-color: #d8ede9
+}
+body.gc-chat-theme .workspace-footer { border-top: 1px solid #0d6a5720; color: #60736f
+}
+body.gc-chat-theme .workspace-footer .gp-logo { color: #0d231e
+}
+body.gc-chat-theme .workspace-footer > p { color: #60736f; border-color: #d8ede9
+}
+body.gc-chat-theme .workspace-footer a:hover { color: #0d231e
+}
+body.gc-chat-theme .gp-conversion {color:#0d231e
+}
+body.gc-chat-theme .gp-rate {color:#60736f
+}
+body.gc-chat-theme .gp-rate-dot {background:#fafffe
+}
+body.gc-chat-theme .gp-rate-dot.unavailable {background:#f5fefc
+}
+body.gc-chat-theme .gp-testnet-value {color:#60736f!important
+}
+body.gc-chat-theme .gp-testnet-tag {border:1px solid #0d6a5725;color:#0d231e
+}
+body.gc-chat-theme .gp-network-picker {background:linear-gradient(135deg,#0d6a5708,#0d6a5703);border:1px solid #0d6a5726;color:#0d231e
+}
+body.gc-chat-theme .gp-network-picker small {color:#60736f
+}
+body.gc-chat-theme .gp-coin-mark {background:radial-gradient(ellipse at 25% 15%,#f5fefc,#ffffff);border:1px solid #0d6a5730;color:#0d231e
+}
+body.gc-chat-theme .gp-network-context {color:#60736f
+}
+body.gc-chat-theme .gp-network-wallet {border-block:1px solid #0d6a5710
+}
+body.gc-chat-theme .gp-network-search {border:1px solid #0d6a5726;background:#ffffff
+}
+body.gc-chat-theme .gp-network-search input {color:#0d231e
+}
+body.gc-chat-theme .gp-network-list>button {color:#0d231e
+}
+body.gc-chat-theme .gp-network-list>button:hover {border-color:#0d6a5719;background:#0d6a5707
+}
+body.gc-chat-theme .gp-network-list small {color:#60736f
+}
+body.gc-chat-theme .gp-deploy-panel {border:1px solid #0d6a5725;background:#0d6a5704
+}
+body.gc-chat-theme .gp-deploy-panel>p {color:#60736f
+}
+body.gc-chat-theme .gp-deploy-panel details {border-top:1px solid #0d6a5715;color:#60736f
+}
+body.gc-chat-theme .gp-funded-link>p {color:#0d231e
+}
+body.gc-chat-theme .gp-funded-link code {border:1px solid #0d6a5722;background:#ffffff;color:#0d231e
+}
+body.gc-chat-theme .gp-funded-link textarea,body.gc-chat-theme .gp-native-side textarea {border:1px solid #0d6a572b;color:#0d231e;background:#ffffff
+}
+body.gc-chat-theme .gp-native-standalone {background:linear-gradient(135deg,#eafbf7f2,#eafbf7ed);border:1px solid #0d6a5729;box-shadow:0 25px 70px #0d6a5755
+}
+body.gc-chat-theme .gp-native-standalone h1 em {color:#60736f
+}
+body.gc-chat-theme .gp-native-network {color:#0d231e
+}
+body.gc-chat-theme .gp-native-amount>span {color:#60736f
+}
+body.gc-chat-theme .gp-native-status {color:#60736f
+}
+body.gc-chat-theme .gp-native-side h2 em {color:#60736f
+}
+body.gc-chat-theme .gp-native-side>section>p:not(.ms-kicker) {color:#60736f
+}
+body.gc-chat-theme .gp-native-side ol {color:#0d231e
+}
+body.gc-chat-theme .gp-native-approval {border:1px solid #0d6a5725;background:#0d6a5703
+}
+body.gc-chat-theme .gp-native-approval .ms-check {color:#0d231e
+}
+body.gc-chat-theme .gp-native-approval input[type=checkbox] {accent-color:#0d231e
+}
+body.gc-chat-theme .gp-proof-valid {color:#0d231e!important
+}
+body.gc-chat-theme .gp-native-card-link {background:#ffffff;color:#0d231e!important;border:1px solid #0d6a5722
+}
+body.gc-chat-theme .gp-native-history-title h2 em {color:#60736f
+}
+body.gc-chat-theme .gp-native-history-title p:not(.ms-kicker) {color:#60736f
+}
+body.gc-chat-theme .gp-native-history-list>a {color:#0d231e
+}
+body.gc-chat-theme .gp-native-history-list small {color:#60736f
+}
+body.gc-chat-theme .gp-native-history-list code {color:#60736f
+}
+body.gc-chat-theme .gp-native-history.is-embedded {border-bottom:1px solid #0d6a5715
+}
+body.gc-chat-theme .gp-native-loading {background:#ffffff;color:#60736f
+}
+body.gc-chat-theme .gp-native-workspace :is(button,a,input,textarea,select):focus-visible {outline:2px solid #d8ede9
+}
+body.gc-chat-theme .ms-form .gp-quoted-amount {border:1px solid #0d6a5729;background:#ffffff
+}
+body.gc-chat-theme .ms-form .gp-quoted-amount:focus-within {border-color:#d8ede9;outline:2px solid #0d6a5728
+}
+body.gc-chat-theme .gp-payment-tabs {border:1px solid #0d6a571e;background:#ffffff
+}
+body.gc-chat-theme .gp-payment-tabs button {color:#60736f
+}
+body.gc-chat-theme .gp-payment-tabs button[aria-selected=true] {background:linear-gradient(#fafffe,#fafffe);color:#385750;border-color:#0d6a5760
+}
+body.gc-chat-theme .gp-recipient-search {border:1px solid #0d6a572a;background:#ffffff;color:#60736f
+}
+body.gc-chat-theme .gp-people-results {border:1px solid #0d6a5723
+}
+body.gc-chat-theme .gp-people-results button {background:#0d6a5705;color:#0d231e;border-bottom:1px solid #0d6a5712
+}
+body.gc-chat-theme .gp-people-results button small {color:#60736f
+}
+body.gc-chat-theme .gp-direct-review,body.gc-chat-theme .gp-campaign-review {border:1px solid #0d6a572c;background:#0d6a5704
+}
+body.gc-chat-theme .gp-direct-review>code {color:#0d231e
+}
+body.gc-chat-theme .gp-direct-review>p {color:#60736f
+}
+body.gc-chat-theme .gp-direct-review .ms-check,body.gc-chat-theme .gp-campaign-review .ms-check {color:#0d231e!important
+}
+body.gc-chat-theme .gp-direct-review input[type=checkbox],body.gc-chat-theme .gp-campaign-review input[type=checkbox] {accent-color:#0d231e
+}
+body.gc-chat-theme .gp-native-form>textarea {border:1px solid #0d6a5729;background:#ffffff;color:#0d231e
+}
+body.gc-chat-theme .gp-allocation-list {border-block:1px solid #0d6a571c
+}
+body.gc-chat-theme .gp-allocation-list>div {border-bottom:1px solid #0d6a5711
+}
+body.gc-chat-theme .gp-allocation-list span {color:#0d231e
+}
+body.gc-chat-theme .gp-allocation-list code {color:#60736f
+}
+body.gc-chat-theme .gp-campaign-progress {background:#0d6a5712
+}
+body.gc-chat-theme .gp-campaign-progress span {background:linear-gradient(90deg,#f5fefc,#fafffe)
+}
+body.gc-chat-theme .gp-campaign-your-share {border:1px solid #0d6a5722;background:#0d6a5704
+}
+body.gc-chat-theme .gp-campaign-your-share p {color:#60736f
+}
+body.gc-chat-theme .gp-trade {color:#0d231e
+}
+body.gc-chat-theme .gp-trade-breadcrumb {color:#60736f
+}
+body.gc-chat-theme .gp-trade h1 em,body.gc-chat-theme .gp-trade h2 em {color:#60736f
+}
+body.gc-chat-theme .gp-trade-heading p:not(.ms-kicker) {color:#60736f
+}
+body.gc-chat-theme .gp-trade-tag {border:1px solid #0d6a5728;background:#0d6a5705
+}
+body.gc-chat-theme .gp-trade-quote {background:linear-gradient(145deg,#eafbf7f0,#eafbf7f5)!important;box-shadow:0 24px 65px #0d6a5744
+}
+body.gc-chat-theme .gp-trade-card-top {border-bottom:1px solid #0d6a5716
+}
+body.gc-chat-theme .gp-trade-quote>label>span {color:#60736f
+}
+body.gc-chat-theme .gp-trade-amount {border:1px solid #0d6a572a;background:#ffffff
+}
+body.gc-chat-theme .gp-trade-amount:focus-within {outline:2px solid #d8ede9
+}
+body.gc-chat-theme .gp-trade-amount input {color:#0d231e
+}
+body.gc-chat-theme .gp-trade-amount>span {color:#60736f
+}
+body.gc-chat-theme .gp-trade-connector {color:#60736f
+}
+body.gc-chat-theme .gp-trade-connector>span {background:#0d6a5720
+}
+body.gc-chat-theme .gp-trade-fiat>span {color:#0d231e
+}
+body.gc-chat-theme .gp-trade-fiat>small {color:#60736f
+}
+body.gc-chat-theme .gp-trade-breakdown dt {color:#60736f
+}
+body.gc-chat-theme .gp-trade-breakdown .gp-trade-net {border-top:1px solid #0d6a5720
+}
+body.gc-chat-theme .gp-trade-net dt,body.gc-chat-theme .gp-trade-net dd {color:#0d231e
+}
+body.gc-chat-theme .gp-trade-caption {color:#60736f
+}
+body.gc-chat-theme .gp-trade-ring {border:1px solid #0d6a571f
+}
+body.gc-chat-theme .gp-trade-ring.ring-two {border-color:#0d6a5715
+}
+body.gc-chat-theme .gp-trade-orbit-core {border:1px solid #0d6a5738;background:radial-gradient(ellipse at 22% 8%,#f5fefc,#ffffff 70%);box-shadow:0 10px 36px #0d6a57aa,inset 0 1px #0d6a5730
+}
+body.gc-chat-theme .gp-trade-satellite {border:1px solid #0d6a5730;background:#ffffff;color:#0d231e
+}
+body.gc-chat-theme .gp-trade-story-copy>p {color:#0d231e
+}
+body.gc-chat-theme .gp-trade-steps button {color:#0d231e
+}
+body.gc-chat-theme .gp-trade-steps button>span:first-child {border:1px solid #0d6a5730
+}
+body.gc-chat-theme .gp-trade-steps button[aria-pressed=true]>span:first-child {background:#fafffe;color:#385750;border-color:#d8ede9
+}
+body.gc-chat-theme .gp-trade-step-line {background:#0d6a5720
+}
+body.gc-chat-theme .gp-trade-oracle {border-top:1px solid #0d6a5724
+}
+body.gc-chat-theme .gp-trade-oracle p {color:#0d231e
+}
+body.gc-chat-theme .gp-trade-oracle small {color:#60736f
+}
+body.gc-chat-theme .gp-trade-lab-intro {border-top:1px solid #0d6a5720
+}
+body.gc-chat-theme .gp-trade-lab-intro p:not(.ms-kicker) {color:#60736f
+}
+body.gc-chat-theme .gp-trade-lab {background:#eafbf7f5!important
+}
+body.gc-chat-theme .gp-trade-lab p {color:#0d231e
+}
+body.gc-chat-theme .gp-trade-check {border:1px solid #0d6a5725;color:#0d231e
+}
+body.gc-chat-theme .gp-trade-check input {accent-color:#0d231e
+}
+body.gc-chat-theme .gp-trade-lab input:not([type=checkbox]),body.gc-chat-theme .gp-trade-lab textarea {color:#0d231e;background:#ffffff;border:1px solid #0d6a572a
+}
+body.gc-chat-theme .gp-trade-deployment {border-block:1px solid #0d6a5720
+}
+body.gc-chat-theme .gp-trade-deployment>span {color:#0d231e
+}
+body.gc-chat-theme .gp-trade-deployment>a,body.gc-chat-theme .gp-trade-tx {color:#0d231e
+}
+body.gc-chat-theme .gp-trade-chain-info {color:#60736f
+}
+body.gc-chat-theme .gp-trade-chain-info a,body.gc-chat-theme .gp-trade-chain-info code {color:#0d231e
+}
+body.gc-chat-theme .gp-trade-offer {border-top:1px solid #0d6a5720
+}
+body.gc-chat-theme .gp-trade-offer>small {color:#60736f
+}
+body.gc-chat-theme .gp-trade-live {border-top:1px solid #0d6a5720
+}
+body.gc-chat-theme .gp-trade-proof {border:1px solid #0d6a5722;background:#0d6a5704
+}
+body.gc-chat-theme .gp-trade-error {color:#0f6554!important
+}
+body.gc-chat-theme .gp-trade-success {color:#0d231e!important
+}
+body.gc-chat-theme .gp-trade-boundary {border-top:1px solid #0d6a5720
+}
+body.gc-chat-theme .gp-trade-boundary>svg {color:#0d231e
+}
+body.gc-chat-theme .gp-trade-boundary p {color:#60736f
+}
+body.gc-chat-theme .gp-trade-boundary>a {color:#0d231e
+}
+body.gc-chat-theme .gp-trade :is(a,button,input,textarea,summary):focus-visible {outline:2px solid #d8ede9
+}
+body.gc-chat-theme .gc-account-surface {color:#385750
+}
+body.gc-chat-theme .gc-account-surface .gp-profile-orb {background:linear-gradient(145deg,#fafffe,#fafffe);color:#385750;border:1px solid #d8ede9;box-shadow:0 8px 26px -12px #0d6a5747
+}
+body.gc-chat-theme .gc-account-surface .gp-profile-orb:after {border:1px solid #0d6a5726
+}
+body.gc-chat-theme .gc-account-surface .gp-profile-orb>span {background:#f5fefc;border:3px solid #d8ede9;box-shadow:0 0 12px #0d6a5775
+}
+body.gc-chat-theme .gc-account-surface .ms-modal-copy {color:#0f6554
+}
+body.gc-chat-theme .gc-account-surface .ms-fine {color:#60736f
+}
+body.gc-chat-theme .gc-account-surface .ms-fine a {color:#0f6554
+}
+body.gc-chat-theme .gc-account-surface .ms-button.ms-primary {background:#ffffff;color:#0d231e;border:1px solid #d8ede9;box-shadow:0 7px 18px -11px #0d6a5780
+}
+body.gc-chat-theme .gc-account-surface .ms-button.ms-primary:after {background:#f5fefc;box-shadow:0 0 12px #0d6a5799,0 0 24px #0d6a574d
+}
+body.gc-chat-theme .gc-account-surface .ms-button.ms-primary:hover:not(:disabled) {background:#ffffff;box-shadow:0 12px 24px -13px #0d6a578c
+}
+body.gc-chat-theme .gc-account-surface .ms-button.ms-primary:hover:not(:disabled):after {box-shadow:0 0 20px #0d6a57c2
+}
+body.gc-chat-theme .gc-account-surface .ms-button.ms-secondary {background:#fafffe;color:#0f6554;border:1px solid #d8ede9
+}
+body.gc-chat-theme .gc-account-surface .ms-button.ms-secondary:hover:not(:disabled) {background:#fafffe;border-color:#d8ede9;color:#385750
+}
+body.gc-chat-theme .gc-account-surface .ms-text {color:#0f6554
+}
+body.gc-chat-theme .gc-account-surface .ms-icon {color:#0f6554
+}
+body.gc-chat-theme .gc-account-surface .ms-icon:hover {color:#385750;background:#fafffe
+}
+body.gc-chat-theme .gc-account-surface .gp-profile-address,body.gc-chat-theme .gc-account-surface .gp-profile-name {background:#fafffe;border:1px solid #d8ede9;box-shadow:0 7px 22px -20px #0d6a5733
+}
+body.gc-chat-theme .gc-account-surface .gp-profile-address:hover,body.gc-chat-theme .gc-account-surface .gp-profile-name:hover {border-color:#d8ede9;box-shadow:0 10px 25px -20px #0d6a578a
+}
+body.gc-chat-theme .gc-account-surface .gc-identity-icon {background:#fafffe;color:#0f6554;border:1px solid #d8ede9
+}
+body.gc-chat-theme .gc-address-content>span,body.gc-chat-theme .gc-identity-label {color:#0f6554
+}
+body.gc-chat-theme .gc-account-surface .gp-profile-address code {color:#0f6554
+}
+body.gc-chat-theme .gc-account-surface .gp-profile-name {background:linear-gradient(115deg,#fafffe,#fafffe)
+}
+body.gc-chat-theme .gc-account-surface .gp-profile-name strong {color:#385750
+}
+body.gc-chat-theme .gc-account-surface .gp-profile-name strong>span {color:#0f6554
+}
+body.gc-chat-theme .gc-account-surface .gp-profile-name p {color:#60736f
+}
+body.gc-chat-theme .gc-account-surface .ms-modal-note {border-top:1px solid #d8ede9;color:#60736f
+}
+body.gc-chat-theme .gc-account-surface .ms-modal-note>svg {color:#0f6554
+}
+body.gc-chat-theme .gc-account-surface .ms-alert {border:1px solid #d8ede9;border-left:3px solid #d8ede9;background:#fafffe;color:#0f6554
+}
+body.gc-chat-theme .gc-account-surface [role=status] {color:#0f6554;background:#fafffe;border:1px solid #d8ede9
+}
+body.gc-chat-theme .gc-account-surface .ms-form label {color:#0f6554
+}
+body.gc-chat-theme .gc-account-surface .ms-form :is(input:not([type=checkbox]),select),body.gc-chat-theme .gc-account-surface .ms-input {border:1px solid #d8ede9;background:#fafffe;color:#385750
+}
+body.gc-chat-theme .gc-account-surface .ms-form input::placeholder {color:#60736f
+}
+body.gc-chat-theme .gc-account-surface .ms-form input:focus,body.gc-chat-theme .gc-account-surface .ms-input:focus {border-color:#d8ede9;box-shadow:0 0 0 4px #0d6a5718;background:#fafffe
+}
+body.gc-chat-theme .gc-account-surface input[type=checkbox] {accent-color:#0f6554
+}
+body.gc-chat-theme .gc-account-surface .gp-profile-balance {border-color:#d8ede9
+}
+body.gc-chat-theme .gc-account-surface .gp-profile-balance>span,body.gc-chat-theme .gc-account-surface .gp-profile-balance p,body.gc-chat-theme .gc-account-surface .gp-profile-balance small {color:#0f6554
+}
+body.gc-chat-theme .gc-account-surface .gp-profile-balance strong {color:#385750
+}
+body.gc-chat-theme .gc-wallet-modal.ms-modal {background:#fafffe;color:#385750;border:1px solid #d8ede9;box-shadow:0 25px 100px #0d6a5755
+}
+body.gc-chat-theme .gc-wallet-modal .ms-modal-body {background:linear-gradient(150deg,#fafffe,#fafffe)
+}
+body.gc-chat-theme .gc-wallet-modal h2 {color:#385750
+}
+body.gc-chat-theme .gc-wallet-modal .ms-kicker {color:#0f6554
+}
+body.gc-chat-theme .gc-wallet-modal .ms-modal-close {color:#0f6554
+}
+body.gc-chat-theme .gc-wallet-modal .ms-modal-close:hover {background:#fafffe;color:#385750
+}
+body.gc-chat-theme .gc-wallet-modal::backdrop {background:#eafbf7a8
+}

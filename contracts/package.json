@@ -1,0 +1,22 @@
+{
+  "name": "@ghostpay/contracts",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "deploy": "hardhat run scripts/deploy.ts --network mst",
+    "check:mst:sdk": "node scripts/deploy-mst-sdk.mjs",
+    "deploy:testnet:sdk": "node scripts/deploy-mst-sdk.mjs --send",
+    "deploy:mainnet": "node scripts/deploy-mst-sdk.mjs --mainnet --send",
+    "check:mainnet": "node scripts/deploy-mst-sdk.mjs --mainnet"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox-viem": "^5.0.0",
+    "@openzeppelin/contracts": "5.4.0",
+    "hardhat": "^3.0.0"
+  },
+  "dependencies": {
+    "@mstblockchain/mst-sdk": "^1.0.0"
+  }
+}

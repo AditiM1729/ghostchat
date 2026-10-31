@@ -1,0 +1,139 @@
+/* One application surface. Chat owns the viewport; financial tools use a popup. */
+.messenger.ms-unified{padding:0;height:100dvh;min-height:0;overflow:hidden}
+.ms-unified .ms-topbar{height:44px;display:flex;max-width:none;margin:0;padding:0 12px;gap:12px}
+.ms-unified .ms-brand{font-size:17px;letter-spacing:-.5px;gap:7px}
+.ms-workspace-status{font-size:10px;color:#92929b;margin-right:auto}
+.ms-compact-actions{display:flex;align-items:center;gap:15px}
+.ms-compact-actions .ms-text{font-size:12px;min-height:36px}
+.ms-unified .ms-app-frame{height:calc(100dvh - 44px);min-height:0;max-width:none;margin:0;width:100%;grid-template-columns:56px 260px minmax(0,1fr);border:0;border-top:1px solid var(--ms-line);border-radius:0;box-shadow:none;padding-bottom:0}
+.ms-unified.ms-details-open .ms-app-frame{grid-template-columns:56px 260px minmax(0,1fr) 250px}
+.ms-unified.ms-tools-open .ms-app-frame{grid-template-columns:56px 240px minmax(0,1fr) minmax(370px,32vw)}
+.ms-unified.ms-tools-open .ms-details{display:none}
+.ms-unified .ms-secondary-view{grid-template-columns:56px minmax(0,1fr)!important}
+.ms-unified .ms-rail{padding:12px 6px;gap:12px}
+.ms-unified .ms-rail-main,.ms-unified .ms-rail-bottom{gap:10px}
+.ms-unified .ms-rail .ms-icon{height:40px;width:40px}
+.ms-unified .ms-inbox-heading{padding:12px 14px 8px;min-height:54px}
+.ms-unified .ms-inbox-heading h1{font-size:20px;margin:0;letter-spacing:-.6px}
+.ms-unified .ms-inbox-heading .ms-new{margin:0;width:32px;height:32px}
+.ms-unified .ms-search{margin:0 12px;height:36px;border-radius:9px}
+.ms-unified .ms-search input{font-size:12px}
+.ms-unified .ms-filters{padding:8px 10px;gap:2px;justify-content:space-between}
+.ms-unified .ms-filters>button{padding:5px 7px;font-size:10px;min-height:30px}
+.ms-unified .ms-list-label{padding:5px 14px 8px;min-height:30px}
+.ms-unified .ms-room-list{padding:0 7px 8px;min-height:0;flex:1}
+.ms-unified .ms-room{min-height:68px;padding:10px 8px;gap:10px;margin-bottom:2px}
+.ms-unified .ms-room .ms-avatar{width:38px;height:38px;min-width:38px}
+.ms-unified .ms-room-preview{font-size:11px;line-height:1.4}
+.ms-unified .ms-conversation{min-width:0;min-height:0}
+.ms-unified .ms-conversation-header{height:56px;min-height:56px;padding:6px 16px;gap:10px}
+.ms-unified .ms-person-heading{gap:10px}
+.ms-unified .ms-person-heading .ms-avatar{width:36px;height:36px;min-width:36px}
+.ms-unified .ms-conversation-actions{gap:4px}
+.ms-unified .ms-conversation-actions .ms-icon{width:32px;height:32px}
+.ms-unified .ms-conversation-actions button[aria-label*="call"]{display:none}
+.ms-unified .ms-preview-strip,.ms-unified .ms-encryption-strip{min-height:26px;padding:4px 16px;font-size:9px;gap:8px;flex-shrink:0}
+.ms-unified .ms-preview-strip>span:nth-child(2){max-width:none;line-height:1.4}
+.ms-unified .ms-timeline{padding:14px 24px;min-height:0;flex:1}
+.ms-unified .ms-message-list{gap:12px}
+.ms-unified .ms-message-row{margin-top:0}
+.ms-unified .ms-composer-wrap{padding:8px 16px 6px;flex-shrink:0}
+.ms-unified .ms-composer-caption{margin-top:5px;font-size:8px;min-height:12px}
+.ms-unified .ms-composer{min-height:52px;padding:6px 10px;border-radius:18px}
+.ms-unified .ms-pay-card{max-width:280px;padding:16px}
+.ms-unified .ms-pay-amount{font-size:33px;margin:12px 0}
+.ms-unified .ms-thread-empty h2{font-size:24px}
+.ms-unified .ms-thread-empty .ms-kicker{display:none}
+.ms-unified .ms-settings-page h1{font-size:28px;line-height:1.2}
+.ms-unified .ms-settings-page{padding:24px;overflow:auto}
+.ms-settings-install{margin:14px 0}
+.ms-tools{grid-column:4;grid-row:1;min-width:0;min-height:0;display:flex;flex-direction:column;background:#111113;border-left:1px solid #ffffff20;z-index:5;overflow:hidden}
+.ms-tools-heading{height:56px;min-height:56px;padding:8px 14px;display:flex;justify-content:space-between;align-items:center;gap:8px}
+.ms-tools-heading h2{font-size:16px;font-weight:500;letter-spacing:-.3px;margin:0;outline:none}
+.ms-tools-tabs{display:flex;gap:4px;padding:0 12px 8px;border-bottom:1px solid #ffffff12}
+.ms-tools-tabs a{display:flex;align-items:center;justify-content:center;gap:6px;min-height:34px;flex:1;font-size:12px;color:#b5b5bd;border-radius:7px}
+.ms-tools-tabs a[aria-current]{background:#ececee;color:#131315}
+.ms-tools-tabs a[aria-disabled=true]{opacity:.4;cursor:not-allowed}
+.ms-tools-network{font-size:10px!important;color:#a5a5b0;padding:7px 14px!important;display:flex;align-items:center;gap:6px;border-bottom:1px solid #ffffff0c}
+.ms-tools-pending{font-size:11px!important;color:#ead7b5;padding:9px 14px!important;background:#d5a44c12}
+.ms-tools-body.workspace{padding:16px;min-height:0;min-width:0;overflow:auto;flex:1;background:none;isolation:auto;scrollbar-width:thin;scrollbar-color:#45454c transparent}
+.ms-tools-body :is(.page,.gp-native-standalone,.ms-modal-body,.gp-native-history){margin:0;max-width:none;min-width:0;width:100%;padding:0}
+.ms-tools-body :is(h1,.dashboard-title h1){font-size:22px!important;line-height:1.25;letter-spacing:-.6px}
+.ms-tools-body h2{font-size:20px;line-height:1.3}
+.ms-tools-body h3{font-size:15px}
+.ms-tools-body p{font-size:12px;line-height:1.65}
+.ms-tools-body .gp-native-standalone>h1,.ms-tools-body .gp-native-standalone>.ms-kicker{display:none}
+.ms-tools-body .gp-payment-tabs{margin:0 0 14px;gap:4px;grid-template-columns:repeat(3,minmax(0,1fr));display:grid}
+.ms-tools-body .gp-payment-tabs button{padding:9px 4px;font-size:10px;gap:4px;min-height:38px;white-space:normal}
+.ms-tools-body .gp-payment-tabs svg{width:13px;height:13px}
+.ms-tools-body :is(input,select,textarea){min-width:0;max-width:100%}
+.ms-tools-body .gp-native-form,.ms-tools-body .gp-native-form-grid{grid-template-columns:minmax(0,1fr);gap:12px}
+.ms-tools-body .ms-form{margin-top:12px;gap:10px}
+.ms-tools-body .ms-form>label{margin-top:8px;font-size:12px}
+.ms-tools-body .ms-modal-copy{margin-bottom:12px;font-size:12px}
+.ms-tools-body .ms-amount-field{min-height:62px;padding:10px 12px;border-radius:12px}
+.ms-tools-body .ms-amount-field input{font-size:30px;line-height:1.3}
+.ms-tools-body .gp-conversion,.ms-tools-body .gp-rate{margin:0;font-size:10px}
+.ms-tools-body .gp-network-picker,.ms-tools-body .gp-network-grid{max-width:100%}
+.ms-tools-body .button{min-height:38px;font-size:11px;padding:10px 12px;white-space:normal}
+.ms-tools-body .panel{border-radius:12px;padding:14px;min-width:0}
+.ms-tools-body .stats-grid{grid-template-columns:1fr;gap:7px}
+.ms-tools-body .stat{padding:12px}
+.ms-tools-body .stat strong{font-size:24px}
+.ms-tools-body .dashboard-title,.ms-tools-body .gp-native-history-title{display:flex;flex-direction:column;gap:12px;margin-bottom:16px}
+.ms-tools-body .dashboard-title .section-kicker,.ms-tools-body .gp-native-history-title .ms-kicker{display:none}
+.ms-tools-body .gp-native-history>.button{margin:8px 8px 8px 0}
+.ms-tools-body .gp-native-history{margin-bottom:25px}
+.ms-tools-body :is(.tabs,.payments-heading){flex-wrap:wrap;gap:6px}
+.ms-tools-body .payment-item-top{flex-wrap:wrap;gap:10px}
+.ms-tools-body .full-address{font-size:10px;overflow-wrap:anywhere}
+.ms-tools-body .gp-trade.is-embedded{padding:0}
+.ms-tools-body .gp-trade-breadcrumb,.ms-tools-body .gp-trade-heading,.ms-tools-body .gp-trade-story,.ms-tools-body .gp-trade-lab-intro,.ms-tools-body .gp-trade-quote>.button,.ms-tools-body .gp-trade-boundary>a{display:none}
+.gp-trade-embedded-status{padding:0 0 14px}
+.gp-trade-embedded-status strong{font-size:14px;font-weight:500}
+.gp-trade-embedded-status p{margin:5px 0 0;color:#a9a9b4}
+.ms-tools-body .gp-trade-grid{display:block;margin:0}
+.ms-tools-body .gp-trade-quote{padding:15px;margin:0 0 14px}
+.ms-tools-body .gp-trade-amount input{font-size:30px;padding:6px 0}
+.ms-tools-body .gp-trade-fiat>strong{font-size:26px}
+.ms-tools-body .gp-trade-card-top{font-size:11px;margin-bottom:14px}
+.ms-tools-body .gp-trade-connector{margin:12px 0}
+.ms-tools-body .gp-trade-fiat{padding:8px 0;margin:0}
+.ms-tools-body .gp-trade-breakdown{margin:12px 0}
+.ms-tools-body .gp-trade-breakdown>div{padding:9px 0}
+.ms-tools-body .gp-trade-lab{padding:14px;margin:0;border-radius:12px!important}
+.ms-tools-body .gp-trade-lab-title h2{font-size:20px;margin:12px 0 6px}
+.ms-tools-body .gp-trade-lab-title>.gp-trade-tag{font-size:9px;max-width:100%}
+.ms-tools-body .gp-trade-check{padding:11px;margin:14px 0;font-size:11px}
+.ms-tools-body .gp-trade-setup{grid-template-columns:1fr;gap:14px}
+.ms-tools-body .gp-trade-actions{gap:7px}
+.ms-tools-body .gp-trade-proof{padding:12px}
+.ms-tools-body .gp-trade-breakdown>div{flex-wrap:wrap;gap:5px}
+.ms-tools-body .gp-trade-breakdown dd{overflow-wrap:anywhere;max-width:100%;font-size:11px}
+.ms-tools-body .gp-trade-deployment{gap:8px}
+.ms-tools-body .gp-trade-boundary{padding-top:16px;margin-top:20px;gap:10px}
+.ms-tools-body .gp-trade-boundary h3{font-size:13px}
+.ms-tools-body .gp-trade-boundary p{font-size:11px}
+@media(min-width:1700px){.ms-unified.ms-tools-open .ms-app-frame{grid-template-columns:56px 280px minmax(0,1fr) 460px}}
+@media(max-width:1200px){.ms-unified .ms-app-frame,.ms-unified.ms-details-open .ms-app-frame{grid-template-columns:52px 230px minmax(0,1fr)}.ms-unified.ms-tools-open .ms-app-frame{grid-template-columns:52px 210px minmax(0,1fr)}.ms-unified .ms-tools{position:absolute;right:0;top:0;bottom:0;width:min(420px,calc(100% - 52px));box-shadow:-14px 0 45px #0008}.ms-unified .ms-details{position:absolute;right:0;top:0;bottom:0;width:270px;z-index:4}.ms-unified .ms-timeline{padding-inline:16px}}
+@media(max-width:680px),(max-width:1024px) and (max-height:500px) and (orientation:landscape){.ms-unified .ms-topbar{height:40px;padding-inline:10px;gap:8px}.ms-unified .ms-brand{font-size:15px}.ms-unified .ms-workspace-status{font-size:9px}.ms-unified .ms-compact-actions{gap:11px}.ms-unified .ms-compact-actions .ms-text{font-size:11px}.ms-unified .ms-app-frame,.ms-unified.ms-details-open .ms-app-frame,.ms-unified.ms-tools-open .ms-app-frame{height:calc(100dvh - 40px);min-height:0;grid-template-columns:1fr!important;padding-bottom:58px}.ms-unified.ms-mobile-conversation .ms-app-frame{padding-bottom:0}.ms-unified .ms-rail{height:58px;padding:4px 8px;bottom:0}.ms-unified .ms-rail .ms-icon{width:44px;height:38px}.ms-unified .ms-tools{width:100%;z-index:8}.ms-unified .ms-tools-body{padding:14px}.ms-unified .ms-inbox-heading{padding-top:10px}.ms-unified .ms-room{min-height:70px}.ms-unified .ms-conversation-header{padding-inline:8px;min-height:52px;height:52px}.ms-unified .ms-person-heading strong{font-size:12px}.ms-unified .ms-person-heading small{font-size:9px}.ms-unified .ms-conversation-actions{gap:0}.ms-unified .ms-conversation-actions .ms-icon{height:30px;width:28px}.ms-unified .ms-preview-strip{padding:4px 10px;gap:5px;font-size:8px}.ms-unified .ms-preview-strip>span:nth-child(2){max-width:150px}.ms-unified .ms-preview-strip>button{font-size:9px}.ms-unified .ms-timeline{padding:12px}.ms-unified .ms-composer-wrap{padding:6px 8px}.ms-unified .ms-composer{min-height:48px;padding:5px 8px}.ms-unified .ms-composer-caption>span:last-child{display:none}.ms-unified .ms-settings-page{padding:18px}.ms-unified .ms-tools-heading{height:48px;min-height:48px}.ms-tools-body input,.ms-tools-body select,.ms-tools-body textarea{font-size:16px!important}}
+@media(max-width:370px){.ms-unified .ms-workspace-status{display:none}.ms-unified .ms-compact-actions{margin-left:auto}.ms-unified .ms-filters>button{padding-inline:6px}}
+
+/* Layout only: retain the current controls, typography, colors and chat styling. */
+.ms-unified .ms-app-frame,.ms-unified.ms-tools-open .ms-app-frame{height:100dvh;grid-template-columns:56px 260px minmax(0,1fr)}
+.ms-unified.ms-details-open .ms-app-frame{grid-template-columns:56px 260px minmax(0,1fr) 250px}
+.ms-unified .ms-rail-brand{display:flex;align-items:center;justify-content:center;width:40px;height:32px;margin-bottom:6px;color:inherit}
+.ms-unified dialog.ms-tools-popup{position:fixed;inset:0;grid-column:auto;grid-row:auto;right:0;bottom:0;top:0;left:0;margin:auto;width:min(640px,calc(100vw - 32px));height:min(820px,calc(100dvh - 32px));max-width:calc(100vw - 32px);max-height:calc(100dvh - 32px);padding:0;border:1px solid var(--ms-line-strong);border-radius:15px;box-shadow:0 24px 90px #0008;color:var(--ms-text);font:inherit;z-index:20}
+.ms-unified dialog.ms-tools-popup:not([open]){display:none}
+.ms-unified dialog.ms-tools-popup[open]{display:flex;flex-direction:column}
+.ms-unified dialog.ms-tools-popup::backdrop{background:#0009;backdrop-filter:blur(3px)}
+@media(max-width:1200px){.ms-unified .ms-app-frame,.ms-unified.ms-tools-open .ms-app-frame{grid-template-columns:52px 230px minmax(0,1fr)}}
+@media(max-width:680px),(max-width:1024px) and (max-height:500px) and (orientation:landscape){
+ .ms-unified .ms-app-frame,.ms-unified.ms-tools-open .ms-app-frame,.ms-unified.ms-details-open .ms-app-frame{height:100dvh;grid-template-columns:1fr!important}
+ .ms-unified .ms-rail-brand{display:none}
+ .ms-unified .ms-rail{padding-inline:6px;gap:0;justify-content:space-between}
+ .ms-unified .ms-rail-main,.ms-unified .ms-rail-bottom{gap:0;flex-direction:row}
+ .ms-unified .ms-rail .ms-icon,.ms-unified .ms-rail .ms-self-avatar{width:40px;max-width:40px;min-width:32px;flex:0 1 40px}
+ .ms-unified .ms-rail .ms-nav-label{display:none}
+ .ms-unified dialog.ms-tools-popup{width:calc(100vw - 16px);height:calc(100dvh - 16px);max-width:calc(100vw - 16px);max-height:calc(100dvh - 16px)}
+}

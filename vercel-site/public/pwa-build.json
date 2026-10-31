@@ -1,0 +1,22 @@
+{
+  "version": "fb73499988bda810",
+  "precacheBytes": 2607798,
+  "files": [
+    "/assets/Messenger-5WMZBLct.css",
+    "/assets/Messenger-EL1ak9Jt.js",
+    "/assets/WalletDialog-DlrJcTNl.js",
+    "/assets/index-BVvITneV.css",
+    "/assets/index-DG_xLBC_.js",
+    "/assets/secp256k1-DVEg6cLn.js",
+    "/icons/ghostpay-180.png",
+    "/icons/ghostpay-192.png",
+    "/icons/ghostpay-512.png",
+    "/index.html",
+    "/instrument-serif-italic.woff2",
+    "/inter.woff2",
+    "/manifest.webmanifest",
+    "/offline-retry.js",
+    "/offline.html"
+  ],
+  "policy": "public application assets only; API/RPC/auth/contract data are network-only"
+}

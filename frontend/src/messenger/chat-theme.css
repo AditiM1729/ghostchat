@@ -1,0 +1,197 @@
+/* White, neon turquoise and electric chartreuse, with the landing page's round controls and quiet motion. */
+body.gc-chat-theme{--chat-ink:#0d231e;--chat-muted:#60736f;--chat-turquoise:#0d6a57;--chat-neon:#1d8f78;--chat-line:#deeeeb;--gc-ink:#0d231e;--gc-cyan:#1d8f78;color-scheme:light;background:#fff!important;color:var(--chat-ink)!important}
+body.gc-chat-theme .messenger{--ms-bg:#fff;--ms-text:#0d231e;--ms-muted:#60736f;--ms-line:#deeeeb;--ms-surface:#fff;--purple:#0d6a57;--text:#0d231e;--muted:#60736f;--border:#deeeeb;background:#fff;color:#0d231e;font-family:Inter,system-ui,sans-serif}
+body.gc-chat-theme .ms-app-frame{background:#fff;border-color:#deeeeb}
+body.gc-chat-theme .ms-rail{background:#f9fffe;border-color:#deeeeb;box-shadow:4px 0 22px #0d6a5705}
+body.gc-chat-theme .ms-rail-brand{color:#0c5d4d;transition:filter .25s,transform .25s}body.gc-chat-theme .ms-rail-brand:hover{filter:drop-shadow(0 0 8px #1d8f7855);transform:translateY(-2px)}
+body.gc-chat-theme .ms-icon{color:#657f7a;border-color:transparent;background:transparent;transition:color .2s,background .2s,box-shadow .2s,transform .2s}
+body.gc-chat-theme .ms-icon:hover{color:#0d6a57;background:#e9faf7;transform:translateY(-1px)}body.gc-chat-theme .ms-rail .ms-icon.is-active{color:#0d6a57;border-color:#cceee7;background:#e7f9f6;box-shadow:0 0 20px #1d8f780e}
+body.gc-chat-theme .ms-rail-dot,body.gc-chat-theme .ms-unread{background:#0d6a57;color:#fff;border-color:#fff}
+body.gc-chat-theme .ms-self-avatar,body.gc-chat-theme .ms-avatar,body.gc-chat-theme .ms-member-initial{background:linear-gradient(145deg,#fff,#dbf6f0);color:#0c6150;border-color:#ccece6;box-shadow:0 3px 10px #0d6a5709}
+body.gc-chat-theme .ms-avatar-group{background:linear-gradient(140deg,#e9fbf7,#fff);color:#0d6150}
+body.gc-chat-theme .ms-inbox{background:linear-gradient(155deg,#fff,#f9fffe);border-color:#deeeeb}
+body.gc-chat-theme .ms-inbox-heading h1{font-weight:500;letter-spacing:-.045em;color:#0d231e}
+body.gc-chat-theme .ms-inbox-heading .ms-new{border:1px solid #c9eae3;border-radius:16px;background:#fff;color:#0d6a57;box-shadow:0 4px 16px #0d6a5709}body.gc-chat-theme .ms-inbox-heading .ms-new:hover{background:#0d6a57;color:#fff;border-color:#0d6a57;box-shadow:0 5px 18px #1d8f7830}
+body.gc-chat-theme .ms-search{border-radius:999px;background:#fff;border-color:#ddeeea;color:#5a736e;box-shadow:0 3px 15px #0d6a5704}body.gc-chat-theme .ms-search:focus-within{border-color:#358d7b;box-shadow:0 0 0 3px #1d8f780c}body.gc-chat-theme .ms-search input{color:#0d231e}body.gc-chat-theme .ms-search kbd{border-color:#ddeeea;color:#5a736e;background:#f9fffe}
+body.gc-chat-theme input::placeholder,body.gc-chat-theme textarea::placeholder{color:#5a736e}
+body.gc-chat-theme .ms-filters>button{border-radius:999px;color:#647c77}body.gc-chat-theme .ms-filters>button:hover{background:#ebfbf8;color:#0d6a57}body.gc-chat-theme .ms-filters>button.selected{color:#fff;background:#0d6a57;border-color:#0d6a57;box-shadow:0 4px 12px #0d6a571e}
+body.gc-chat-theme .ms-room{border-radius:16px}body.gc-chat-theme .ms-room:hover{background:#f1fefb}body.gc-chat-theme .ms-room.selected{background:linear-gradient(120deg,#e6faf6,#f7fefd);border-color:#ccefe8}body.gc-chat-theme .ms-room.selected:before{background:#11725e;box-shadow:0 0 10px #1d8f7855}
+body.gc-chat-theme .ms-room-name strong,body.gc-chat-theme .ms-person-heading strong{color:#0d231e}body.gc-chat-theme .ms-room-preview>span,body.gc-chat-theme .ms-room-name time{color:#5a736e}
+body.gc-chat-theme .ms-conversation{background:#fff}body.gc-chat-theme .ms-conversation:before{background:none}body.gc-chat-theme .ms-conversation>.ms-fluid-backdrop{background:radial-gradient(ellipse at 70% 55%,#d9fff5,transparent 65%),radial-gradient(ellipse at 25% 80%,#f7ffdc,transparent 60%),#fff}body.gc-chat-theme .ms-fluid-backdrop canvas{opacity:.8}
+body.gc-chat-theme .ms-conversation-header{background:#ffffffed;border-color:#deeeeb;backdrop-filter:blur(18px)}body.gc-chat-theme .ms-person-heading small,body.gc-chat-theme .ms-room-preview svg{color:#5a736e}
+body.gc-chat-theme .ms-thread-empty{color:#0d231e;background:none}body.gc-chat-theme .ms-thread-empty>svg{color:#0d6a57;filter:drop-shadow(0 0 18px #1d8f7825);animation:gc-chat-float 8s ease-in-out infinite}
+body.gc-chat-theme .ms-empty-home h2{font-family:Inter,system-ui,sans-serif;font-weight:400;letter-spacing:-.055em;line-height:1.15;color:#0d231e}body.gc-chat-theme .ms-empty-home h2 em{font-family:inherit;font-style:normal;color:#0d6a57;background:linear-gradient(100deg,#095143,#1d8f78,#0c6251);background-clip:text;background-size:220% 100%;color:transparent;animation:gc-chat-shimmer 9s ease-in-out infinite}
+body.gc-chat-theme .ms-empty-home>p,body.gc-chat-theme .ms-list-empty p{color:#697e7a}body.gc-chat-theme .ms-list-empty>svg{color:#337e6f}body.gc-chat-theme .ms-list-empty strong{color:#27413b}
+body.gc-chat-theme .ms-text,body.gc-chat-theme .ms-load-earlier{color:#0d6a57}body.gc-chat-theme .ms-text:hover{color:#074b3d}body.gc-chat-theme .ms-kicker{color:#5a736e;letter-spacing:.15em}
+body.gc-chat-theme .ms-button.ms-primary,body.gc-chat-theme .workspace .button.primary,body.gc-chat-theme .ms-send-button{background:linear-gradient(125deg,#085647,#0f6f5c);border:1px solid #0d6452;color:#fff;border-radius:999px;box-shadow:0 6px 18px -8px #0d6a5750;transition:background .25s,box-shadow .3s,transform .25s}
+body.gc-chat-theme .ms-button.ms-primary:hover:not(:disabled),body.gc-chat-theme .workspace .button.primary:hover:not(:disabled),body.gc-chat-theme .ms-send-button:hover:not(:disabled){background:linear-gradient(125deg,#0c6553,#157f6a);box-shadow:0 9px 25px -8px #1d8f7865;transform:translateY(-2px)}
+body.gc-chat-theme .ms-button,body.gc-chat-theme .workspace .button{border-radius:999px;min-height:44px;font-weight:500}
+body.gc-chat-theme .ms-button.ms-secondary,body.gc-chat-theme .workspace .button.secondary{background:#fff;color:#0f6050;border:1px solid #c9eae3;box-shadow:none}body.gc-chat-theme .ms-button.ms-secondary:hover,body.gc-chat-theme .workspace .button.secondary:hover{background:#f1fefb;border-color:#7cb2a7}
+body.gc-chat-theme .ms-message-body{background:#fff;border:1px solid #deeeeb;color:#1c312d;box-shadow:0 4px 18px #0d6a5707;border-radius:20px 20px 20px 5px}body.gc-chat-theme .ms-message.own .ms-message-body{background:linear-gradient(130deg,#0a5e4e,#147360);color:#fff;border-color:#0d6452;border-radius:20px 20px 5px 20px;box-shadow:0 5px 18px #0d6a571a}
+body.gc-chat-theme .ms-message-meta{color:#5a736e}body.gc-chat-theme .ms-message.own .ms-message-meta{color:#d1f2eb}body.gc-chat-theme .ms-message-sender{color:#106453}body.gc-chat-theme .ms-message.own .ms-message-sender{color:#fff}body.gc-chat-theme .ms-message blockquote{border-color:#3b907f;background:#0d6a5708}body.gc-chat-theme .ms-message.own blockquote{background:#ffffff14;border-color:#c7fbf0}body.gc-chat-theme .ms-message-tools button{color:#44766c}body.gc-chat-theme .ms-message-tools button:hover{background:#e9f9f6;color:#0d6a57}
+body.gc-chat-theme .ms-composer-area{background:linear-gradient(transparent,#fafffeed 28%)}body.gc-chat-theme .ms-composer{background:#ffffffed;border:1px solid #ceebe5;border-radius:999px;box-shadow:0 8px 30px #0d6a570a;backdrop-filter:blur(16px)}body.gc-chat-theme .ms-composer:focus-within{border-color:#388c7b;box-shadow:0 0 0 3px #1d8f780a,0 8px 26px #0d6a5710}body.gc-chat-theme .ms-composer textarea{color:#0d231e;background:none}body.gc-chat-theme .ms-composer .ms-icon{color:#54877d}body.gc-chat-theme .ms-pay-trigger{color:#0d6a57;background:#e9fbf7;border-color:#cfefe9;border-radius:999px}body.gc-chat-theme .ms-pay-trigger:hover{background:#0d6a57;color:#fff;border-color:#0d6a57}body.gc-chat-theme .ms-action-divider{background:#d5e7e4}body.gc-chat-theme .ms-send-button{border-radius:50%}body.gc-chat-theme .ms-composer-caption{color:#5a736e}
+body.gc-chat-theme .ms-encryption-strip,body.gc-chat-theme .ms-preview-strip{color:#5a736e;background:#f8fefd;border-color:#e1f0ed}body.gc-chat-theme .ms-preview-label{color:#146051;border-color:#c8ebe4}body.gc-chat-theme .ms-preview-strip>button{color:#0d6a57}
+body.gc-chat-theme :is(.ms-popup,.ms-emoji-picker,.ms-details,.ms-settings-page,.ms-feature-page){color:#0d231e;background:#fafffe;border-color:#dbedea;box-shadow:0 10px 35px #0d6a5712}body.gc-chat-theme .ms-popup button{color:#33514b}body.gc-chat-theme .ms-popup button:hover{color:#0d6a57;background:#e9fbf7}
+body.gc-chat-theme :is(.ms-modal,.ms-tools-popup){background:#fafffe;color:#0d231e;border:1px solid #cfece6;border-radius:27px;box-shadow:0 25px 100px #073a3038;color-scheme:light}body.gc-chat-theme :is(.ms-modal,.ms-tools-popup)::backdrop{background:#0c292370;backdrop-filter:blur(10px)}body.gc-chat-theme .ms-modal-body{background:linear-gradient(145deg,#fff,#f9fefd)}body.gc-chat-theme .ms-modal h2,body.gc-chat-theme .ms-tools-heading h2{color:#0d231e;letter-spacing:-.04em;font-weight:400}
+body.gc-chat-theme .ms-tools-heading,body.gc-chat-theme .ms-tools-tabs,body.gc-chat-theme .ms-tools-network{background:#fafffe;color:#597e76;border-color:#deeeeb}body.gc-chat-theme .ms-tools-tabs a{border-radius:999px;color:#657f7a}body.gc-chat-theme .ms-tools-tabs a[aria-current=page]{background:#0d6a57;color:#fff}body.gc-chat-theme .ms-tools-body.workspace{--bg:#fafffe;--surface:#fff;--surface-raised:#f5fefc;--text:#0d231e;--muted:#60736f;--border:#dbedea;--purple:#0d6a57;background:#fafffe;color:#0d231e}
+body.gc-chat-theme .ms-modal-copy{color:#60736f}body.gc-chat-theme .ms-modal-note{color:#5a736e;border-color:#e0eeeb}body.gc-chat-theme .ms-fine{color:#5a736e}body.gc-chat-theme .ms-form label{color:#35564f}
+body.gc-chat-theme :is(.ms-modal,.ms-tools) :is(input:not([type=checkbox]):not([type=radio]),textarea,select){background:#fff;border:1px solid #d0e9e4;color:#0d231e;border-radius:15px;box-shadow:none;accent-color:#0d6a57}body.gc-chat-theme :is(.ms-modal,.ms-tools) :is(input,textarea,select):focus{outline:none;border-color:#318e7c;box-shadow:0 0 0 4px #1d8f7812}body.gc-chat-theme input[type=checkbox],body.gc-chat-theme input[type=radio]{accent-color:#0d6a57}
+body.gc-chat-theme :is(button,a,input,textarea,select):focus-visible{outline:2px solid #16806b;outline-offset:3px}
+body.gc-chat-theme .gp-profile-orb{background:linear-gradient(140deg,#f4fefc,#dcf8f3);color:#0d6a57;border-color:#c9ede6}body.gc-chat-theme .gp-profile-orb>span{background:#1d8f78;box-shadow:0 0 12px #1d8f7866}body.gc-chat-theme .gc-account-surface .ms-button.ms-primary:after{background:#73c0b1;box-shadow:0 0 14px #73c0b180}body.gc-chat-theme .gc-account-surface .gp-profile-address,body.gc-chat-theme .gc-account-surface .gp-profile-name{background:linear-gradient(120deg,#f5fefc,#fff);border-color:#d3eee8;color:#0d231e}body.gc-chat-theme .gc-account-surface .gc-identity-icon{background:#e7f9f6;color:#0d6a57;border-color:#ccede6}body.gc-chat-theme .gc-account-surface .gp-profile-name strong{color:#0d231e}body.gc-chat-theme .gc-account-surface .gp-profile-name strong>span{color:#0d6a57}
+body.gc-chat-theme .ms-alert,body.gc-chat-theme .gp-trade-error{background:#f1fefb;color:#296a5d;border:1px solid #c9ede6}body.gc-chat-theme .gp-trade-success,body.gc-chat-theme .gp-proof-valid{color:#1f7362;background:#f0f9f7;border-color:#cbe7e2}
+body.gc-chat-theme .ms-toast{background:#fff;color:#0b5f4e;border-color:#caede6;box-shadow:0 12px 38px #0d6a5720}body.gc-chat-theme .ms-toast button{color:#0b5f4e}
+@keyframes gc-chat-float{0%,100%{transform:translateY(0)}50%{transform:translateY(-7px)}}@keyframes gc-chat-shimmer{0%,100%{background-position:0 50%}50%{background-position:100% 50%}}
+@media(max-width:680px){body.gc-chat-theme .ms-rail{background:#f9fffef5;border-color:#d6ede8;box-shadow:0 -7px 30px #0d6a5708}body.gc-chat-theme .ms-topbar{background:#fafffe;color:#0d231e}body.gc-chat-theme .ms-rail .ms-icon,body.gc-chat-theme .ms-rail .ms-self-avatar{color:#5a736e}body.gc-chat-theme .ms-rail .ms-icon.is-active{background:#e7f9f6;color:#0d6a57;border-color:#ccede6}body.gc-chat-theme .ms-nav-label{color:inherit}body.gc-chat-theme .ms-self-initials{background:#e7f9f6!important;color:#0d6a57!important;border-color:#c1e8e0!important}}
+@media(prefers-reduced-motion:reduce){body.gc-chat-theme .ms-empty-home>svg,body.gc-chat-theme .ms-empty-home h2 em{animation:none}body.gc-chat-theme .messenger *,body.gc-chat-theme .ms-modal *,body.gc-chat-theme .ms-tools *{transition:none!important}}
+
+/* Account buttons have their own higher-specificity rules. */
+body.gc-chat-theme .gc-account-surface .ms-button.ms-primary{background:linear-gradient(125deg,#085647,#0f6f5c);border-color:#0d6452;color:#fff}
+body.gc-chat-theme .gc-account-surface .ms-button.ms-primary:hover:not(:disabled){background:linear-gradient(125deg,#0c6553,#157f6a);color:#fff;box-shadow:0 8px 24px -8px #1d8f7865}
+body.gc-chat-theme .gc-account-surface .ms-button.ms-secondary{background:#fff;color:#0f5d4d;border-color:#c9eae3}
+body.gc-chat-theme .gc-account-surface .ms-modal-copy,body.gc-chat-theme .gc-account-surface .ms-fine{color:#60736f}
+body.gc-chat-theme .gc-account-surface .gp-profile-address code{color:#4a635e}
+body.gc-chat-theme .gc-account-surface .gp-profile-orb:after{border-color:#1d8f7833}
+body.gc-chat-theme .ms-error-strip{background:#effefb;color:#1f6859;border-color:#c9ede6}
+body.gc-chat-theme .ms-message.own .ms-message-meta{color:#e3fdf8}
+
+body.gc-chat-theme .gp-profile-trigger{background:#f6fefd;color:#0d6554;border-color:#cbebe5;border-radius:999px}body.gc-chat-theme .gp-profile-trigger:hover{background:#e5f9f5;box-shadow:0 4px 18px #1d8f7815}
+body.gc-chat-theme :is(.gp-community-list,.gp-community-content,.gp-community-groups>button,.gp-community-independent>button){background:#fafffe;color:#0d231e;border-color:#dbedea;border-radius:20px}
+body.gc-chat-theme .gp-community-list>button{background:transparent;color:#294943;border-color:transparent}body.gc-chat-theme .gp-community-list>button.selected{background:#e6f9f5;color:#0c5e4d;border-color:#caece5}body.gc-chat-theme .gp-community-list button:hover,body.gc-chat-theme .gp-community-groups button:hover{background:#f1fefb;border-color:#c5ebe3}
+body.gc-chat-theme :is(.gp-community-heading h1 em,.gp-community-empty h2 em){font-family:inherit;font-style:normal;color:#0d6a57}body.gc-chat-theme :is(.gp-community-heading p:not(.ms-kicker),.gp-community-list small,.gp-community-list>p,.gp-community-meta p,.gp-community-cover p:not(.ms-kicker),.gp-community-groups p,.gp-community-groups small,.gp-community-empty>p:not(.ms-kicker),.gp-managed-members small){color:#5a736e}
+body.gc-chat-theme .gp-community-symbol,body.gc-chat-theme .gp-managed-members>div>span{background:#e6f9f5;color:#0d6a57;border-color:#caebe4}body.gc-chat-theme .gp-community-meta{background:#f5fefc;color:#5a736e;border-color:#d7ede9}body.gc-chat-theme .gp-community-cover,body.gc-chat-theme .gp-community-layout{border-color:#d7ede9}
+body.gc-chat-theme .gp-community-actions a.ms-primary{background:#0d6a57;color:#fff;border-color:#0d6a57}body.gc-chat-theme .gp-community-actions a.ms-secondary{background:#fff;color:#0d6a57;border-color:#caece5}
+body.gc-chat-theme .gp-setup-help,body.gc-chat-theme .gp-review-note{background:#f8fefd;color:#5a736e;border-color:#dcedea}body.gc-chat-theme .gp-setup-help summary,body.gc-chat-theme .gp-setup-help li strong,body.gc-chat-theme .gp-review-note strong{color:#264a43}body.gc-chat-theme .gp-setup-help li span{color:#5a736e}body.gc-chat-theme .gp-review-note a{color:#0d6a57}
+
+body.gc-chat-theme .messenger{--ms-panel:#fff;--ms-raised:#f5fefc;--ms-line-strong:#bfe5dd;--ms-soft:#5a736e}
+body.gc-chat-theme .workspace{--bg:#fafffe;--surface:#fff;--surface-raised:#f5fefc;--text:#0d231e;--muted:#60736f;--border:#dbedea;--purple:#0d6a57;--green:#1f7362;color:#0d231e;background:transparent}
+
+body.gc-chat-theme .ms-message .ms-message-body:has(.ms-pay-card){background:none;border:0;box-shadow:none}
+body.gc-chat-theme .ms-message.own .ms-message-body:has(.ms-pay-card)>.ms-message-meta{color:#5a736e}
+
+/* Final two-accent palette. Bright fills use dark text for readable contrast. */
+body.gc-chat-theme{--chat-ink:#123d35;--chat-muted:#526f67;--chat-turquoise:#007c69;--chat-neon:#00e5c0;--chat-chartreuse:#d2f534;--chat-line:#dceee7;--gc-ink:#123d35;--gc-cyan:#00e5c0;background:#fff!important;color:#123d35!important}
+body.gc-chat-theme .messenger,body.gc-chat-theme .workspace{--ms-text:#123d35;--ms-muted:#526f67;--ms-soft:#627e75;--ms-line:#dfede7;--ms-line-strong:#bdd9d1;--text:#123d35;--muted:#526f67;--border:#dceee7;--purple:#007c69}
+body.gc-chat-theme .ms-rail-brand,body.gc-chat-theme .ms-text,body.gc-chat-theme .ms-icon.is-active{color:#007566}
+body.gc-chat-theme .ms-rail .ms-icon.is-active{background:#eaffc3;border-color:#bddc80;box-shadow:0 0 18px #d2f52218;color:#245544}
+body.gc-chat-theme .ms-rail-dot,body.gc-chat-theme .ms-unread{background:#d2f534;color:#24482f;border-color:#fff}
+body.gc-chat-theme .ms-filters>button.selected,body.gc-chat-theme .ms-tools-tabs a[aria-current=page],body.gc-chat-theme .gp-payment-tabs button[aria-selected=true],body.gc-chat-theme .ms-segments>button.selected{background:#d2f534;color:#173c30;border-color:#c0df28;box-shadow:0 4px 14px #b8d6321a}
+body.gc-chat-theme .ms-button.ms-primary,body.gc-chat-theme .workspace .button.primary,body.gc-chat-theme .gc-account-surface .ms-button.ms-primary,body.gc-chat-theme .gp-community-actions a.ms-primary,body.gc-chat-theme .ms-send-button{background:linear-gradient(115deg,#00dfbd,#39edca);color:#073c35;border-color:#00c8ab;box-shadow:0 7px 20px -10px #00b99b65}
+body.gc-chat-theme .ms-button.ms-primary:hover:not(:disabled),body.gc-chat-theme .workspace .button.primary:hover:not(:disabled),body.gc-chat-theme .gc-account-surface .ms-button.ms-primary:hover:not(:disabled),body.gc-chat-theme .ms-send-button:hover:not(:disabled){background:linear-gradient(115deg,#12e7c1,#d2f534);color:#073c35;border-color:#00b89e;box-shadow:0 9px 25px -10px #00b99b70}
+body.gc-chat-theme .ms-button.ms-secondary,body.gc-chat-theme .gc-account-surface .ms-button.ms-secondary,body.gc-chat-theme .workspace .button.secondary{color:#006d5e;background:#fff;border-color:#bdddd2}
+body.gc-chat-theme .ms-button.ms-secondary:hover:not(:disabled),body.gc-chat-theme .gc-account-surface .ms-button.ms-secondary:hover:not(:disabled){background:#f0ffcf;border-color:#b4d873}
+body.gc-chat-theme .ms-inbox-heading .ms-new{color:#006d5e;border-color:#c5e6d9;background:#f4ffdf}body.gc-chat-theme .ms-inbox-heading .ms-new:hover{background:#d2f534;color:#173c30;border-color:#bddc80}
+body.gc-chat-theme .ms-message.own .ms-message-body{background:linear-gradient(135deg,#c4ffec,#edffc5);color:#123d35;border-color:#a7e4ca;box-shadow:0 5px 20px #0c9f6c0a}body.gc-chat-theme .ms-message.own .ms-message-meta{color:#426f5c}body.gc-chat-theme .ms-message.own .ms-message-sender{color:#006d5e}body.gc-chat-theme .ms-message.own blockquote{border-color:#029d82;background:#ffffff80}
+body.gc-chat-theme .ms-pay-trigger{background:#efffce;color:#315529;border-color:#d5e9a0}body.gc-chat-theme .ms-pay-trigger:hover{background:#d2f534;color:#173c30;border-color:#bddc80}
+body.gc-chat-theme .ms-empty-home h2 em{background-image:linear-gradient(100deg,#006e60,#00ac8e,#467a35);color:transparent}body.gc-chat-theme .ms-thread-empty>svg{color:#008d76;filter:drop-shadow(0 0 20px #00dfbd33)}
+body.gc-chat-theme .gc-account-surface .ms-button.ms-primary:after{background:#d2f534;box-shadow:0 0 14px #d2f53480}
+body.gc-chat-theme .ms-alert,body.gc-chat-theme .gp-trade-error,body.gc-chat-theme .ms-error-strip{background:#fff7f1;color:#924d30;border-color:#edcebb}
+body.gc-chat-theme :is(button,a,input,textarea,select):focus-visible{outline:2px solid #007d69;outline-offset:3px}
+/* Consistent popup rhythm: one scrolling content area and generous edge clearance. */
+body.gc-chat-theme .ms-unified dialog.ms-tools-popup{width:min(700px,calc(100vw - 40px));height:min(850px,calc(100dvh - 40px));max-height:calc(100dvh - 40px);border-radius:24px;border:1px solid #cde5dc;overflow:hidden}
+body.gc-chat-theme .ms-tools-heading{padding:20px 26px 14px;min-height:68px;gap:16px;flex-shrink:0}
+body.gc-chat-theme .ms-tools-heading h2{font-size:22px;line-height:1.25;margin:0;padding:0;outline-offset:4px}
+body.gc-chat-theme .ms-tools-tabs{padding:0 22px 14px;gap:10px;flex-shrink:0}
+body.gc-chat-theme .ms-tools-tabs a{min-height:44px;padding:11px 18px;border-radius:999px;justify-content:center;gap:8px}
+body.gc-chat-theme .ms-tools-network{padding:11px 26px;margin:0;border-block:1px solid #e1eee7;flex-shrink:0;line-height:1.5}
+body.gc-chat-theme .ms-tools-body.workspace{padding:24px 28px 30px!important;min-height:0;overflow-y:auto;overscroll-behavior:contain;scrollbar-gutter:stable;scroll-padding-block:24px;background:#fcfffd}
+body.gc-chat-theme .ms-tools-body :is(.gp-native-standalone.ms-modal-body,.page,.gp-native-history){padding:0!important;margin:0;max-width:100%;width:100%}
+/* The popup supplies the frame and gutters; embedded forms must not add a second card. */
+body.gc-chat-theme .ms-tools-body .gp-native-standalone.ms-modal-body{background:transparent;border:0;border-radius:0;box-shadow:none;box-sizing:border-box}
+body.gc-chat-theme .ms-tools-body .gp-native-standalone>[role=tabpanel]{padding:0 2px 8px;min-width:0}
+body.gc-chat-theme .ms-tools-body .gp-native-standalone>h1{font-size:27px;line-height:1.2;margin:9px 0 20px}
+body.gc-chat-theme .ms-tools-body .gp-native-standalone>.ms-kicker{margin:0;font-size:9px;letter-spacing:.12em}
+body.gc-chat-theme .ms-modal .ms-modal-body{padding:32px}
+body.gc-chat-theme .ms-modal .ms-modal-close{right:14px;top:14px;width:38px;height:38px}
+body.gc-chat-theme .ms-modal h2{margin:10px 32px 16px 0;line-height:1.2}
+body.gc-chat-theme .ms-modal-copy{font-size:12px;line-height:1.75;margin:16px 0 20px}
+body.gc-chat-theme .ms-form{display:grid;grid-template-columns:minmax(0,1fr);gap:12px;margin:0;min-width:0}
+body.gc-chat-theme .ms-form>label{margin:10px 0 0;padding:0;line-height:1.5;font-size:12px;font-weight:500}
+body.gc-chat-theme .ms-form>label:first-child{margin-top:0}
+body.gc-chat-theme .ms-form>p.ms-fine{margin:0;line-height:1.65;font-size:11px}
+body.gc-chat-theme .ms-form :is(input:not([type=checkbox]):not([type=radio]),textarea,select){width:100%;min-width:0;box-sizing:border-box;min-height:48px;padding:13px 15px;border-radius:14px;border:1px solid #bdd9d1;background:#fff;color:#123d35;font-size:13px;line-height:1.5}
+body.gc-chat-theme .ms-form textarea{resize:vertical;min-height:104px}
+body.gc-chat-theme :is(.gp-recipient-search,.gp-network-search,.ms-input-icon){display:flex;align-items:center;gap:12px;min-width:0;min-height:50px;padding:12px 15px;border:1px solid #bdd9d1;border-radius:15px;background:#fff;color:#648077;box-sizing:border-box;transition:border-color .2s,box-shadow .2s}
+body.gc-chat-theme :is(.gp-recipient-search,.gp-network-search,.ms-input-icon)>svg{flex-shrink:0}
+body.gc-chat-theme .ms-form :is(.gp-recipient-search,.gp-network-search,.ms-input-icon)>input,body.gc-chat-theme :is(.gp-recipient-search,.gp-network-search,.ms-input-icon)>input{border:0!important;border-radius:0!important;background:transparent!important;box-shadow:none!important;outline:none!important;padding:0!important;margin:0!important;min-height:24px!important;height:auto!important;flex:1;min-width:0;width:100%;color:#123d35}
+body.gc-chat-theme :is(.gp-recipient-search,.gp-network-search,.ms-input-icon,.ms-amount-field):focus-within{border-color:#008e76;box-shadow:0 0 0 4px #d2f53430}
+body.gc-chat-theme .ms-form .ms-amount-field.gp-quoted-amount{display:flex;align-items:center;gap:12px;min-width:0;min-height:100px;padding:20px;border:1px solid #bdd9d1;border-radius:18px;background:#fff;box-sizing:border-box}
+body.gc-chat-theme .ms-form .ms-amount-field.gp-quoted-amount>input{padding:0!important;border:0!important;border-radius:0!important;box-shadow:none!important;outline:none!important;background:transparent!important;min-width:0;min-height:48px;width:0;flex:1;font-size:clamp(28px,4vw,40px);font-weight:400;letter-spacing:-.05em;line-height:1.2}
+body.gc-chat-theme .ms-form .ms-amount-field.gp-quoted-amount>span{white-space:nowrap;font-size:12px;color:#55776b;flex-shrink:0}
+body.gc-chat-theme .ms-form .ms-amount-field.gp-quoted-amount>.ms-icon{flex-shrink:0;width:32px;min-height:36px}
+body.gc-chat-theme .gp-network-picker{padding:17px 18px;border-radius:18px;border:1px solid #cde5da;min-height:82px;gap:14px;margin:0;background:linear-gradient(120deg,#fbfffe,#f5ffe9)}
+body.gc-chat-theme .gp-network-picker .gp-testnet-tag{margin-left:auto}
+body.gc-chat-theme .gp-payment-tabs,body.gc-chat-theme .ms-segments{padding:6px;gap:6px;margin:0 0 18px;border:1px solid #d2e6dc;border-radius:999px;background:#f8fff9}
+body.gc-chat-theme .gp-payment-tabs>button,body.gc-chat-theme .ms-segments>button{min-width:0;min-height:44px;padding:10px 14px;border-radius:999px;gap:7px;line-height:1.3;font-size:12px}
+body.gc-chat-theme .ms-form>.ms-button{margin-top:12px;min-height:48px;padding:13px 20px}
+body.gc-chat-theme .ms-form label.ms-check,body.gc-chat-theme .ms-form label:has(>input[type=checkbox]){display:flex;align-items:flex-start;gap:10px;font-size:11px;line-height:1.75;font-weight:400;margin:8px 0 0}
+body.gc-chat-theme .ms-form input[type=checkbox],body.gc-chat-theme .ms-form input[type=radio]{width:15px;min-height:15px;height:15px;margin-top:3px;flex:0 0 15px}
+body.gc-chat-theme .ms-inline-actions{gap:12px;flex-wrap:wrap;margin-top:16px}
+body.gc-chat-theme :is(.gp-direct-review,.gp-campaign-review,.gp-deploy-panel,.gp-trade-lab){padding:20px;border-radius:18px;border-color:#cde5da;min-width:0}
+body.gc-chat-theme :is(.gp-direct-review,.gp-campaign-review,.gp-trade-lab) code{overflow-wrap:anywhere;word-break:break-word}
+body.gc-chat-theme .ms-modal-note{gap:10px;padding-top:18px;margin-top:22px;line-height:1.75}
+/* Keep the payment controls compact enough for laptop screens, with one content scrollbar. */
+body.gc-chat-theme .ms-tools-body.workspace{flex:1 1 auto;min-width:0}
+body.gc-chat-theme .ms-tools-body .ms-modal-copy{margin:12px 0 16px;line-height:1.65}
+body.gc-chat-theme .ms-tools-body .ms-form{gap:10px}
+body.gc-chat-theme .ms-tools-body .ms-form>label{margin-top:8px}
+body.gc-chat-theme .ms-tools-body .gp-network-picker{min-height:70px;padding:14px 16px;border-radius:16px}
+body.gc-chat-theme .ms-tools-body .ms-form .ms-amount-field.gp-quoted-amount{min-height:84px;padding:16px 18px}
+body.gc-chat-theme .ms-tools-body .gp-payment-tabs{margin-bottom:14px}
+@media(max-height:760px) and (min-width:681px){body.gc-chat-theme .ms-tools-heading{min-height:56px;padding:14px 26px 10px}body.gc-chat-theme .ms-tools-tabs{padding-bottom:10px}body.gc-chat-theme .ms-tools-network{padding-block:8px}body.gc-chat-theme .ms-tools-body.workspace{padding-block:18px 24px!important}}
+@media(max-width:680px){body.gc-chat-theme .ms-unified dialog.ms-tools-popup{width:calc(100vw - 24px);height:calc(100dvh - 24px);max-height:calc(100dvh - 24px);border-radius:21px}body.gc-chat-theme .ms-tools-heading{padding:18px 18px 13px;min-height:62px}body.gc-chat-theme .ms-tools-heading h2{font-size:20px}body.gc-chat-theme .ms-tools-tabs{padding:0 14px 12px;gap:6px}body.gc-chat-theme .ms-tools-tabs a{padding:10px;min-height:42px;font-size:11px}body.gc-chat-theme .ms-tools-network{padding:10px 18px}body.gc-chat-theme .ms-tools-body.workspace{padding:20px 18px 26px!important}body.gc-chat-theme .ms-modal .ms-modal-body{padding:28px 22px 24px}body.gc-chat-theme .gp-payment-tabs>button,body.gc-chat-theme .ms-segments>button{padding:9px 8px;font-size:10px;gap:5px}body.gc-chat-theme .ms-form .ms-amount-field.gp-quoted-amount{padding:16px;gap:8px;min-height:88px}}
+
+/* Drag the inbox edge without moving the navigation rail or changing mobile navigation. */
+body.gc-chat-theme .ms-unified .ms-inbox{position:relative}
+body.gc-chat-theme .ms-inbox-resize{position:absolute;inset:0 0 0 auto;width:8px;z-index:5;cursor:col-resize;touch-action:none;user-select:none;outline:none}
+body.gc-chat-theme .ms-inbox-resize:after{content:'';position:absolute;top:0;bottom:0;right:0;width:2px;background:transparent;transition:background .15s}
+body.gc-chat-theme .ms-inbox-resize:hover:after,body.gc-chat-theme .ms-inbox-resize:focus-visible:after,body.gc-chat-theme .ms-inbox-resize.is-dragging:after{background:#00cbaa}
+body.gc-chat-theme .ms-app-frame:has(.ms-inbox-resize.is-dragging){cursor:col-resize;user-select:none}
+@media(min-width:681px){body.gc-chat-theme .ms-unified .ms-app-frame:not(.ms-secondary-view){grid-template-columns:56px min(var(--ms-inbox-width,260px),calc(100% - 376px)) minmax(0,1fr)}body.gc-chat-theme .ms-unified.ms-details-open .ms-app-frame:not(.ms-secondary-view){grid-template-columns:56px min(var(--ms-inbox-width,260px),calc(100% - 626px)) minmax(0,1fr) 250px}}
+@media(min-width:681px) and (max-width:1250px){body.gc-chat-theme .ms-unified.ms-details-open .ms-app-frame:not(.ms-secondary-view){grid-template-columns:56px min(var(--ms-inbox-width,260px),calc(100% - 376px)) minmax(0,1fr)}}
+@media(max-width:680px),(max-width:1024px) and (max-height:500px) and (orientation:landscape){body.gc-chat-theme .ms-inbox-resize{display:none}body.gc-chat-theme .ms-unified .ms-app-frame:not(.ms-secondary-view){grid-template-columns:1fr!important}}
+
+/* Conversation controls and real payment receipts. */
+body.gc-chat-theme :is(.ms-avatar,.ms-self-avatar,.ms-profile-photo-preview){position:relative;overflow:hidden}
+body.gc-chat-theme .ms-profile-image{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;border-radius:inherit}
+body.gc-chat-theme .ms-profile-photo-editor{display:flex;align-items:center;gap:18px;margin:18px 0 24px}
+body.gc-chat-theme .ms-profile-photo-preview{display:grid;place-items:center;flex:0 0 68px;width:68px;height:68px;border-radius:50%;background:#e5fff5;border:1px solid #c3e9db;color:#007c69}
+body.gc-chat-theme .ms-profile-photo-editor>div{display:flex;align-items:flex-start;flex-direction:column;gap:5px}
+body.gc-chat-theme .ms-profile-photo-editor small{display:block;font-size:10px;line-height:1.6;color:#526f67}
+body.gc-chat-theme .ms-room-row{position:relative;min-width:0}
+body.gc-chat-theme .ms-room-row>.ms-room{padding-right:38px}
+body.gc-chat-theme .ms-room-row>.ms-list-more{position:absolute;right:4px;top:calc(50% - 16px);height:30px;width:30px;color:#52776b;background:#f7fffbdd;border-radius:50%}
+body.gc-chat-theme .ms-room-row:has(.ms-list-menu){z-index:10}
+body.gc-chat-theme .ms-list-menu{position:absolute;top:calc(100% - 4px);right:4px;width:205px;z-index:15}
+body.gc-chat-theme .ms-delivery-state{display:inline-flex;align-items:center;gap:4px;font-size:9px;white-space:nowrap}
+body.gc-chat-theme .ms-delivery-state.is-seen{color:#007c69;font-weight:600}
+body.gc-chat-theme .ms-payment-activity{min-width:0}
+body.gc-chat-theme .ms-payment-activity>header{display:flex;align-items:flex-start;justify-content:space-between;gap:16px;margin-bottom:22px}
+body.gc-chat-theme .ms-payment-activity h2{font-size:24px;line-height:1.3;font-weight:500;letter-spacing:-.035em;margin:0 0 9px}
+body.gc-chat-theme .ms-payment-activity header p{font-size:12px;line-height:1.7;color:#526f67;margin:0;max-width:450px}
+body.gc-chat-theme .ms-payment-records{display:grid;grid-template-columns:minmax(0,1fr);gap:22px}
+body.gc-chat-theme .ms-payment-records article{min-width:0}
+body.gc-chat-theme .ms-payment-records article>small{display:block;font-size:10px;color:#526f67;margin:0 0 8px;overflow-wrap:anywhere}
+body.gc-chat-theme .ms-payment-records .ms-pay-card{width:100%;max-width:none;box-sizing:border-box}
+body.gc-chat-theme .ms-payment-records .ms-pay-amount{overflow-wrap:anywhere;font-size:clamp(23px,3vw,36px)}
+body.gc-chat-theme .ms-payment-activity.is-compact{padding:12px 9px 24px}
+body.gc-chat-theme .ms-payment-activity.is-compact h2{font-size:18px}
+body.gc-chat-theme .ms-payment-activity.is-compact header p{font-size:10px}
+body.gc-chat-theme .ms-payment-activity.is-compact .ms-pay-card{padding:16px}
+body.gc-chat-theme .ms-payment-activity.is-compact .ms-pay-card-top{font-size:10px}
+body.gc-chat-theme .gc-wallet-modal .gp-profile-balance{padding:16px;margin:18px 0;border:1px solid #dceee7;border-radius:16px;gap:8px}
+body.gc-chat-theme .gc-wallet-modal .gp-profile-balance strong{font-size:28px;line-height:1.3;margin:8px 0}
+body.gc-chat-theme .gc-wallet-modal .gp-profile-balance>span{font-size:9px}
+body.gc-chat-theme .gc-wallet-modal .gp-profile-balance p{font-size:11px;margin:0}
+body.gc-chat-theme .ms-wallet-address-details{margin:12px 0 18px;color:#526f67;font-size:12px}
+body.gc-chat-theme .ms-wallet-address-details summary{cursor:pointer;padding:8px 0}
+body.gc-chat-theme .ms-wallet-address-details .gp-profile-address{margin-top:10px}
+/* Clear state and readable controls on the light messenger surface. */
+body.gc-chat-theme .ms-toggle-row > input[type=checkbox]{appearance:none;width:46px;min-width:46px;height:26px;min-height:26px;border:2px solid #72958c;border-radius:20px;background:#d7e5df;position:relative;cursor:pointer;flex-shrink:0}
+body.gc-chat-theme .ms-toggle-row > input[type=checkbox]::after{content:'';position:absolute;left:3px;top:3px;width:16px;height:16px;border-radius:50%;background:#355d52;transform:none}
+body.gc-chat-theme .ms-toggle-row > input[type=checkbox]:checked{background:#cef735;border-color:#659b09}
+body.gc-chat-theme .ms-toggle-row > input[type=checkbox]:checked::after{left:23px;background:#164b39;transform:none}
+body.gc-chat-theme .wallet-button{background:#eefbf6;color:#134d40;border:1px solid #b7dcd0}
+body.gc-chat-theme .wallet-button :is(.balance,.wallet-address,svg){color:#134d40}
+body.gc-chat-theme .gp-allocation-picker{min-width:0;margin:12px 0;padding:16px;border:1px solid #bdd9d1;border-radius:16px}
+body.gc-chat-theme .gp-allocation-person{display:grid;grid-template-columns:minmax(0,1fr) minmax(100px,160px);align-items:center;gap:16px;padding:12px 0;border-bottom:1px solid #e0eee8}
+body.gc-chat-theme .gp-allocation-person label{display:flex;align-items:center;gap:10px;margin:0;overflow-wrap:anywhere}

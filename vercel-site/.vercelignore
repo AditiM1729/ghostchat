@@ -1,0 +1,8 @@
+.env
+.env.*
+.vercel
+.git
+README.md
+node_modules
+test
+*.log

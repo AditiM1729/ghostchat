@@ -1,0 +1,11 @@
+import { readFile } from 'node:fs/promises';
+import { resolve } from 'node:path';
+import { encryptMatrixSettings } from './local-link.mjs';
+const get = flag => { const i = process.argv.indexOf(flag); return i < 0 ? undefined : process.argv[i + 1]; };
+if (!get('--bundle') || !get('--request')) throw new Error('Supply the private Matrix --bundle and public --request.');
+const bundle = resolve(get('--bundle')); const env = await readFile(resolve(bundle, 'relay.env'), 'utf8');
+const homeserver = env.match(/^MATRIX_HOMESERVER=(.+)$/m)?.[1].trim(); const secret = env.match(/^MATRIX_JWT_SECRET=(.+)$/m)?.[1].trim();
+const config = await readFile(resolve(bundle, 'generated/homeserver.yaml'), 'utf8');
+if (!secret || !config.includes(`secret: ${JSON.stringify(secret)}`)) throw new Error('The relay and Synapse need the same configured JWT secret first.');
+console.log('Encrypted for your local backend only. The signing secret is not printed.');
+console.log('GHOSTCHAT_MATRIX_LINK=' + encryptMatrixSettings(get('--request'), homeserver, secret));

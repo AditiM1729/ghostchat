@@ -1,0 +1,14 @@
+{
+  "chainId": 4646,
+  "network": "MST Mainnet",
+  "transactionHash": "0xc53450bd1f98aa6ab29e4d78e5b27aab696205f8c1569fd9f5c1a2c113eadaa8",
+  "blockNumber": "21799274",
+  "deployer": "0x6ecBd2B54d31C6d1CA80FAdf94eC282218e86f91",
+  "suite": "0xC6415aDfE9b2793200aDFB71918043F054ea5E11",
+  "nativeEscrow": "0x4Fa57c8F3046ceF96371EC181c1dc123F2516247",
+  "community": "0xf94C7F000f6e39eB5fcF4079660D9cebdE298C00",
+  "p2p": "0x652bfc4fAE71303951B5f9D562B229b58233aB66",
+  "app": "https://ghostchat-rho.vercel.app",
+  "verifiedAt": "2026-10-31T03:09:07.291Z",
+  "appMainnetEnabled": false
+}

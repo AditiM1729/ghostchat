@@ -1,0 +1,46 @@
+name: Contract and integration checks
+on:
+  push:
+    branches: [main, feat/ghostpay-messenger]
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: npm ci
+      - run: npm run build
+      - run: npm test
+      - run: npm run test:messenger
+      - run: npm run test:matrix
+      - run: npm test --prefix vercel-site
+      - name: Verify hosted relay and username service
+        run: |
+          npm ci --prefix public-site
+          npm run build --prefix public-site
+          npm test --prefix public-site
+          npm run validate --prefix public-site
+      - name: Install pinned static analyzer
+        run: |
+          python -m pip install slither-analyzer==0.11.6
+          solc-select install 0.8.28
+          solc-select use 0.8.28
+      - run: npm run security:community
+      - run: npm run security:p2p
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: community-static-analysis
+          path: |
+            docs/community-slither.json
+            docs/p2p-slither.json
